@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82f4e56c-e777-4c52-b53b-89400b097068" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/content/blocks/turrets/fall-turret.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/fall-turret.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/puncher.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/puncher.hjson" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +365,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661279134764</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Update">
+      <created>1661279853742</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1661279853742</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Update">
+      <created>1661280026038</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1661280026038</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Update">
+      <created>1661280699908</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1661280699908</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

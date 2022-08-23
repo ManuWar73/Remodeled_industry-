@@ -18,8 +18,8 @@ ammoPerShot: 3
 pierce: true
 ammoTypes: {
 surge-alloy: {
-"type": BasicBulletType
-"sprite": "hexagone-yellow"
+type: BasicBulletType
+bulletSprite: hexagone-yellow
 damage: 3000
 lifetime: 200
 speed: 3
@@ -30,7 +30,7 @@ despawnEffect: none
 }
 thorium: {
 type: BasicBulletType
-"sprite": "hexagone-purple"
+bulletSprite: hexagone-purple
 damage: 3500
 lifetime: 300
 speed: 2
@@ -41,7 +41,7 @@ despawnEffect: none
 }
 titanium: {
 type: "BasicBulletType"
-"sprite": "hexagone-blue"
+BulletSprite: hexagone-blue
 reloadTime: 300
 damage: 4000
 lifetime: 600
