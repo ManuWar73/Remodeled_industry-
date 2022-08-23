@@ -27,7 +27,6 @@ shootEffect: none
 smokeEffect: none
 hitEffect: none
 despawnEffect: none
-lightColor: 255, 199, 0, 0.8
 }
 thorium: {
 "type": "basicBulletType",
@@ -39,7 +38,6 @@ shootEffect: none
 smokeEffect: none
 hitEffect: none
 despawnEffect: none
-lightColor: 203, 0, 202, 0.8
 }
 titanium: {
 "type": "basicBulletType"
@@ -51,7 +49,6 @@ shootEffect: none
 smokeEffect: none
 hitEffect: none
 despawnEffect: none
-lightColor: 0, 168, 255, 0.8
 }
 }
 requirements: [
