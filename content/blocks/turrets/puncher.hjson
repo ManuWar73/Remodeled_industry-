@@ -2,6 +2,7 @@ name: puncher
 type: ItemTurret
 size: 1
 health: 54000
+prefix: PRP
 shootCone: 3
 baseExplosiveness: 1
 maxAmmo: 2000
