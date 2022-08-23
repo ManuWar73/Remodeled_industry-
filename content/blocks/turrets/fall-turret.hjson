@@ -1,5 +1,5 @@
 name: Fall turret
-type: Turret
+type: itemTurret
 size: 3
 health: 5000
 prefix: PRP
