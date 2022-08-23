@@ -7,7 +7,7 @@ shootCone: 5
 baseExplosiveness: 10
 maxAmmo: 200
 range: 600
-reloadTime: 300
+reloadTime: 600
 rotateSpeed: 3
 shootLength: 30
 canOverdrive: true
@@ -19,11 +19,10 @@ pierce: true
 ammoTypes: {
 surge-alloy: {
 "type": BasicBulletType
-"sprite": hexagone-yellow
-reloadTime: 300
+"sprite": "hexagone-yellow"
 damage: 3000
-lifetime: 70
-speed: 1
+lifetime: 200
+speed: 3
 shootEffect: none
 smokeEffect: none
 hitEffect: none
@@ -31,23 +30,22 @@ despawnEffect: none
 }
 thorium: {
 type: BasicBulletType
-sprite: hexagone-purple
-damage: 3000
-lifetime: 60
-speed: 5
-reloadTime: 300
+"sprite": "hexagone-purple"
+damage: 3500
+lifetime: 300
+speed: 2
 shootEffect: none
 smokeEffect: none
 hitEffect: none
 despawnEffect: none
 }
 titanium: {
-type: BasicBulletType
-sprite: hexagone-blue
+type: "BasicBulletType"
+"sprite": "hexagone-blue"
 reloadTime: 300
-damage: 3000
-lifetime: 65
-speed: 3
+damage: 4000
+lifetime: 600
+speed: 1
 shootEffect: none
 smokeEffect: none
 hitEffect: none
