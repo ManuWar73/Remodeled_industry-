@@ -1,25 +1,25 @@
 name: puncher
-type: ItemTurret
+type: Turret
 size: 1
-health: 54000
+health: 2000
 prefix: PRP
-shootCone: 3
-baseExplosiveness: 1
-maxAmmo: 2000
-range: 300
-reloadTime: 1
+shootCone: 0
+baseExplosiveness: 10
+maxAmmo: 200
+range: 900
+reloadTime: 0.2
 rotateSpeed: 30
 shootLength: 30
 canOverdrive: true
 acceptCoolant: true
-recoilAmount: 1
+recoilAmount: 2
 shootSound: none
 ammoPerShot: 1
 ammoTypes: {
 surge-alloy: {
-damage: 50
-lifetime: 3
-speed: 100
+damage: 300
+lifetime: 60
+speed: 15
 shootEffect: none
 smokeEffect: none
 hitEffect: none
@@ -27,13 +27,14 @@ despawnEffect: none
 }
 }
 requirements: [
-  titanium/400
+  titanium/300
   copper/1200
-  graphite/550
+  graphite/200
   thorium/500
   plastanium/105
-  surge-alloy/100
-  lead/4000
-  pyratite/1000
+  surge-alloy/150
+  lead/400
+  pyratite/100
   phase-fabric/950
 ]
+"category": "turret"
