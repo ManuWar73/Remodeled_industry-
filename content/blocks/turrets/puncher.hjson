@@ -3,7 +3,7 @@ type: itemTurret
 size: 1
 health: 2000
 prefix: PRP
-shootCone: 0
+shootCone: 5
 baseExplosiveness: 10
 maxAmmo: 200
 range: 900
