@@ -4,5 +4,5 @@ author: "ManuWar73"
 main: "MW.remodeledindust"
 description: ""
 version: 1.0
-minGameVersion: 137
+minGameVersion: 136
 java: true
