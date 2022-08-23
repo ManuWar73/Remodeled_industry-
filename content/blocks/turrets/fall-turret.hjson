@@ -2,12 +2,12 @@ name: Fall turret
 type: itemTurret
 size: 3
 health: 5000
-prefix: PRP
+basePrefix: PRP
 shootCone: 5
 baseExplosiveness: 10
 maxAmmo: 200
 range: 600
-reloadTime: 600
+reloadTime: 0.1
 rotateSpeed: 3
 shootLength: 30
 canOverdrive: true
@@ -19,7 +19,7 @@ pierce: true
 ammoTypes: {
 surge-alloy: {
 type: BasicBulletType
-bulletSprite: hexagone-yellow
+sprite: hexagone-yellow
 damage: 3000
 lifetime: 200
 speed: 3
@@ -30,7 +30,7 @@ despawnEffect: none
 }
 thorium: {
 type: BasicBulletType
-bulletSprite: hexagone-purple
+sprite: hexagone-purple
 damage: 3500
 lifetime: 300
 speed: 2
@@ -41,7 +41,7 @@ despawnEffect: none
 }
 titanium: {
 type: "BasicBulletType"
-BulletSprite: hexagone-blue
+sprite: hexagone-blue
 reloadTime: 300
 damage: 4000
 lifetime: 600
