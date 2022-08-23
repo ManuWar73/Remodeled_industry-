@@ -1,7 +1,6 @@
 displayName: "Remodeled industry"
 name: "Remodeled industry"
 author: "ManuWar73"
-main: "example.remind"
 description: "WIP"
 version: 1.0
 minGameVersion: 137
