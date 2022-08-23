@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82f4e56c-e777-4c52-b53b-89400b097068" name="Changes" comment="Changed and updated things And maybe the mod will work">
+      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/puncher.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/puncher.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/mod.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DkUENu3mpiUcwI0HfoRDaCUxIe" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/manue/Downloads",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manue\IdeaProjects\Remodeled-industry\content" />
+      <recent name="C:\Users\manue\IdeaProjects\Remodeled-industry\content\blocks\turrets\item" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82f4e56c-e777-4c52-b53b-89400b097068" name="Changes" comment="" />
+      <created>1661242464568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661242464568</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added puncher, but code is taken from exogenesis battery missiles.Will remodel in next version">
+      <created>1661243118422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661243118422</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changed and updated mod.hjson to make compatible with V7">
+      <created>1661243541252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661243541252</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changed and updated mod.hjson to make compatible with V7">
+      <created>1661243646227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661243646227</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changed and updated mod.hjson to make compatible with V7">
+      <created>1661243710047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661243710047</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changed and updated mod.hjson to make compatible with V7">
+      <created>1661243774736</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661243774736</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changed and updated mod.hjson to make compatible with V7">
+      <created>1661243827674</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661243827674</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed and updated mod.hjson to make compatible with V7">
+      <created>1661243865944</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661243865944</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed and updated puncher.hjson to make compatible">
+      <created>1661244163057</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661244163057</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changed and updated mod.hjson to make compatible">
+      <created>1661244322981</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661244322981</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Changed and updated things And maybe the mod will work">
+      <created>1661244971753</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661244971753</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Changed and updated things And maybe the mod will work">
+      <created>1661245369513</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661245369513</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changed and updated things And maybe the mod will work">
+      <created>1661246486894</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661246486894</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Changed and updated things And maybe the mod will work">
+      <created>1661246517518</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661246517518</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Changed and updated things And maybe the mod will work">
+      <created>1661247250067</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661247250067</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Changed and updated things And maybe the mod will work">
+      <created>1661247381784</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661247381784</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Changed and updated things And maybe the mod will work">
+      <created>1661248199824</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1661248199824</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Changed and updated things And maybe the mod will work">
+      <created>1661248221048</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1661248221048</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changed and updated things And maybe the mod will work">
+      <created>1661250620189</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1661250620189</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Changed and updated things And maybe the mod will work">
+      <created>1661250667045</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1661250667045</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Changed and updated things And maybe the mod will work">
+      <created>1661252118322</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1661252118322</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Changed and updated things And maybe the mod will work">
+      <created>1661252292399</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1661252292399</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Changed and updated things And maybe the mod will work">
+      <created>1661252569040</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1661252569040</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added puncher, but code is taken from exogenesis battery missiles.Will remodel in next version" />
+    <MESSAGE value="Changed and updated mod.hjson to make compatible with V7" />
+    <MESSAGE value="Changed and updated puncher.hjson to make compatible" />
+    <MESSAGE value="Changed and updated mod.hjson to make compatible" />
+    <MESSAGE value="Changed and updated things And maybe the mod will work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed and updated things And maybe the mod will work" />
+  </component>
+</project>

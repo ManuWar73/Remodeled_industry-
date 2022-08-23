@@ -2,6 +2,6 @@ displayName: "Remodeled industry"
 name: "Remodeled industry"
 author: "ManuWar73"
 description: "WIP"
-version: 1.0
-minGameVersion: 137
-java: false
+version: "1.0""
+minGameVersion: "137""
+java: "false"
