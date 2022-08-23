@@ -9,10 +9,10 @@ import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
-public class RemInd extends Mod{
+public class remind extends Mod{
 
-    public ExampleJavaMod(){
-        Log.info("Loaded ExampleJavaMod constructor.");
+    public remind(){
+        Log.info("Loaded remind constructor.");
 
         //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {
