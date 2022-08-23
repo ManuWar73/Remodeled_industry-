@@ -17,7 +17,7 @@ shootSound: none
 ammoPerShot: 1
 ammoTypes: {
 surge-alloy: {
-type: "BasicBulletType"
+type: BasicBulletType
 damage: 300
 lifetime: 60
 speed: 15
