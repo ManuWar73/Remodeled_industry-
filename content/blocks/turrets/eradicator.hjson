@@ -22,6 +22,7 @@ ammoTypes: {
 surge-alloy: {
 type: BasicBulletType
 "sprite": "remodeled-industry-hexagone"
+lightColor: "yellow"
 damage: 10000
 lifetime: 200
 speed: 3
