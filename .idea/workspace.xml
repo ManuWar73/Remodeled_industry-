@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82f4e56c-e777-4c52-b53b-89400b097068" name="Changes" comment="Update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/fall-turret.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/fall-turret.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/tracker.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/tracker.hjson" afterDir="false" />
-    </list>
+    <list default="true" id="82f4e56c-e777-4c52-b53b-89400b097068" name="Changes" comment="Update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,27 +75,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661242464568</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Changed and updated things And maybe the mod will work">
-      <created>1661246486894</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1661246486894</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Changed and updated things And maybe the mod will work">
-      <created>1661246517518</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1661246517518</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Changed and updated things And maybe the mod will work">
-      <created>1661247250067</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1661247250067</updated>
     </task>
     <task id="LOCAL-00015" summary="Changed and updated things And maybe the mod will work">
       <created>1661247381784</created>
@@ -423,7 +398,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661328186659</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Update">
+      <created>1661328323738</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1661328323738</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Update">
+      <created>1661328439622</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1661328439622</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Update">
+      <created>1661328544897</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1661328544897</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
