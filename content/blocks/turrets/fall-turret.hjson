@@ -14,14 +14,16 @@ canOverdrive: true
 acceptCoolant: true
 recoilAmount: 10
 shootSound: none
+hitSize: 1
 ammoPerShot: 3
 pierce: true
+sprite: hexagone
 ammoTypes: {
 surge-alloy: {
 type: MissileBulletType
-sprite: hexagone-yellow
 damage: 3000
 lifetime: 200
+lightColor: yellow
 speed: 3
 shootEffect: none
 smokeEffect: none
@@ -30,10 +32,10 @@ despawnEffect: none
 }
 thorium: {
 type: MissileBulletType
-sprite: hexagone-purple
 damage: 3500
 lifetime: 300
 speed: 2
+lightColor: purple
 shootEffect: none
 smokeEffect: none
 hitEffect: none
@@ -41,9 +43,9 @@ despawnEffect: none
 }
 titanium: {
 type: "MissileBulletType"
-sprite: hexagone-blue
 reloadTime: 300
 damage: 4000
+lightColor: sky
 lifetime: 600
 speed: 1
 shootEffect: none
