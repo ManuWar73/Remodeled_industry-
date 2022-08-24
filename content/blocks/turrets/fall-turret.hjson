@@ -43,7 +43,6 @@ despawnEffect: none
 }
 titanium: {
 type: "MissileBulletType"
-reloadTime: 300
 damage: 4000
 lightColor: sky
 lifetime: 600
