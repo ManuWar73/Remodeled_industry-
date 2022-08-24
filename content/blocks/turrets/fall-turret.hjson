@@ -1,7 +1,7 @@
 name: "System 0"
 type: itemTurret
 size: 3
-health: 5000
+health: 1500
 basePrefix: PRP
 shootCone: 5
 baseExplosiveness: 10

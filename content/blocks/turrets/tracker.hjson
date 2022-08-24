@@ -1,0 +1,38 @@
+name: "Tracker"
+type: itemTurret
+size: 4
+health: 2000
+basePrefix: PRP
+shootCone: 360
+baseExplosiveness: 10
+maxAmmo: 200
+range: 300
+reload: 15.0
+rotateSpeed: 0
+shootLength: 30
+canOverdrive: true
+acceptCoolant: true
+inaccuracy: 360
+recoilAmount: 0
+shootSound: none
+hitSize: 1
+ammoPerShot: 1
+pierce: true
+sprite: hexagone
+ammoTypes: {
+titanium: {
+type: "MissileBulletType"
+damage: 500
+lifetime: 150
+speed: 2
+shootEffect: none
+smokeEffect: none
+hitEffect: none
+despawnEffect: none
+}
+}
+requirements: [
+  titanium/2000
+
+]
+category: turret
