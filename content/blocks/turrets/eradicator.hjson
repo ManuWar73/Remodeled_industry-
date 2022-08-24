@@ -1,0 +1,32 @@
+name: "Eradicator"
+type: continuousTurret
+size: 6
+health: 5000
+basePrefix: "PRP-"
+shootCone: 360
+baseExplosiveness: 0
+range: 400
+rotateSpeed: 1
+shootLength: 150
+canOverdrive: true
+acceptCoolant: true
+inaccuracy: 360
+recoilAmount: 0
+shootSound: none
+damage: 200
+hitSize: 5
+aimChangeSpeed: 3
+pierce: true
+pierceCap: 1000
+buffered: "true"
+capacity: 300000
+usage: 3000
+r: 255
+g: 0
+b: 0
+a: 1
+requirements: [
+  titanium/2000
+
+]
+category: turret
