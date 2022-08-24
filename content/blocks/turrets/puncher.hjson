@@ -38,4 +38,4 @@ requirements: [
   pyratite/100
   phase-fabric/950
 ]
-category: turret
+category: "turret"
