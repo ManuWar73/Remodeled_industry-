@@ -21,7 +21,7 @@ pierce: true
 pierceCap: 5
 ammoTypes: {
 titanium: {
-type: "MissileBulletType"
+type: MissileBulletType
 damage: 500
 lifetime: 150
 speed: 2
