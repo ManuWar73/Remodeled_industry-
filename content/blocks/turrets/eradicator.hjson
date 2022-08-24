@@ -44,9 +44,12 @@ surge-alloy: {
                                                     "fragBullets": 10,
                                                     "fragBullet": {
                                                                              "type": "BasicBulletType",
-                                                                             "lifetime": 60,
-                                                                             "speed": 5,
+                                                                             "lifetime": 600,
+                                                                             "speed": 1,
                                                                              "damage": 300,
+                                                                             "homingDelay": 50,
+                                                                             "homingPower": 1000,
+                                                                             "homingRange": 200,
                     }
                     }
                  }
