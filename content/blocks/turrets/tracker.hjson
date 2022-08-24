@@ -4,7 +4,7 @@ size: 4
 health: 2000
 basePrefix: PRP
 shootCone: 360
-baseExplosiveness: 10
+baseExplosiveness: 10a
 maxAmmo: 200
 range: 300
 reload: 15.0
@@ -25,7 +25,7 @@ type: "MissileBulletType"
 damage: 500
 lifetime: 150
 speed: 2
-homingDelay: 1.5
+homingDelay: 30
 homingPower: 1000
 homingRange: 120
 shootEffect: none

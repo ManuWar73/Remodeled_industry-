@@ -15,6 +15,7 @@ acceptCoolant: true
 recoilAmount: 100
 shootSound: none
 hitSize: 10
+pierceCap: 3
 ammoPerShot: 5
 pierce: true
 sprite: hexagone
