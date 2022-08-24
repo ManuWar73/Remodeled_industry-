@@ -1,30 +1,61 @@
-name: "Eradicator"
-type: continuousTurret
-size: 6
-health: 5000
-basePrefix: "PRP-"
-shootCone: 360
-baseExplosiveness: 0
-range: 400
-rotateSpeed: 1
-shootLength: 150
+name: "Fall turret"
+type: itemTurret
+size: 2
+health: 1500
+shootCone: 5
+baseExplosiveness: 100
+maxAmmo: 200
+range: 600
+reload: 60.0
+rotateSpeed: 3
+shootLength: 300
 canOverdrive: true
 acceptCoolant: true
-inaccuracy: 360
-recoilAmount: 0
+recoil: 10
+recoilTime: 80
 shootSound: none
-damage: 200
-hitSize: 5
-aimChangeSpeed: 3
+hitSize: 10
+pierceCap: 3
+ammoPerShot: 5
 pierce: true
-pierceCap: 1000
-buffered: "true"
-capacity: 300000
-usage: 3000
-r: 255
-g: 0
-b: 0
-a: 1
+ammoTypes: {
+surge-alloy: {
+type: MissileBulletType
+damage: 6500
+lifetime: 200
+speed: 3
+shootEffect: none
+smokeEffect: none
+hitEffect: none
+despawnEffect: none
+bulletSprite: remodeled-industry-hexagone
+frontColor: yellow
+}
+thorium: {
+type: MissileBulletType
+damage: 7000
+lifetime: 300
+speed: 2
+shootEffect: none
+smokeEffect: none
+hitEffect: none
+despawnEffect: none
+bulletSprite: remodeled-industry-hexagone
+frontColor: purple
+}
+titanium: {
+type: "MissileBulletType"
+damage: 8000
+lifetime: 600
+speed: 1
+shootEffect: none
+smokeEffect: none
+hitEffect: none
+despawnEffect: none
+bulletSprite: remodeled-industry-hexagone
+frontColor: sky
+}
+}
 requirements: [
   titanium/2000
 
