@@ -56,7 +56,10 @@ surge-alloy: {
              }
              }
              requirements: [
-               titanium/2000
-
+               titanium/4000
+               pyratite/4000
+               phase-fabric/4000
+               copper/4000
+               lead/4000
              ]
              category: turret
