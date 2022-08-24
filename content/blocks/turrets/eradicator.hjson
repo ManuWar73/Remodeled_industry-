@@ -6,16 +6,16 @@ shootCone: 5
 baseExplosiveness: 100
 maxAmmo: 200
 range: 600
-reload: 60.0
+reload: 300.0
 rotateSpeed: 3
-length: 8
-width: 8
+length: 80
+width: 80
 canOverdrive: true
 acceptCoolant: true
 recoil: 10
 recoilTime: 80
 shootSound: none
-hitSize: 8
+hitSize: 80
 pierce: true
 pierceCap: 10000
 ammoPerShot: 30
@@ -23,7 +23,7 @@ ammoTypes: {
 surge-alloy: {
 type: BasicBulletType
 "sprite": "remodeled-industry-hexagone"
-color: fad505
+lightColor: fad505
 damage: 10000
 lifetime: 200
 speed: 3
@@ -35,7 +35,7 @@ despawnEffect: none
 thorium: {
 type: BasicBulletType
 "sprite": "remodeled-industry-hexagone"
-color: c900cc
+lightColor: c900cc
 damage: 11000
 lifetime: 300
 speed: 2
@@ -47,7 +47,7 @@ despawnEffect: none
 titanium: {
 type: "BasicBulletType"
 "sprite": "remodeled-industry-hexagone"
-color: 05b5fa
+lightColor: 05b5fa
 damage: 12000
 lifetime: 600
 speed: 1
