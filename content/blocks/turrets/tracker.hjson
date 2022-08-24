@@ -18,13 +18,16 @@ shootSound: none
 hitSize: 1
 ammoPerShot: 1
 pierce: true
-sprite: hexagone
+pierceCap: 5
 ammoTypes: {
 titanium: {
 type: "MissileBulletType"
 damage: 500
 lifetime: 150
 speed: 2
+homingDelay: 1.5
+homingPower: 1000
+homingRange: 120
 shootEffect: none
 smokeEffect: none
 hitEffect: none
