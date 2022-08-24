@@ -78,20 +78,6 @@
       <option name="presentableId" value="Default" />
       <updated>1661242464568</updated>
     </task>
-    <task id="LOCAL-00017" summary="Changed and updated things And maybe the mod will work">
-      <created>1661248221048</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1661248221048</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Changed and updated things And maybe the mod will work">
-      <created>1661250620189</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1661250620189</updated>
-    </task>
     <task id="LOCAL-00019" summary="Changed and updated things And maybe the mod will work">
       <created>1661250667045</created>
       <option name="number" value="00019" />
@@ -421,7 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661358444643</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Update">
+      <created>1661358695866</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1661358695866</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Update">
+      <created>1661358870353</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1661358870353</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

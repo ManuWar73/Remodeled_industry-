@@ -7,8 +7,8 @@ shootCone: 360
 baseExplosiveness: 10
 maxAmmo: 200
 range: 400
-reload: 1.0
-rotateSpeed: 0
+reload: 3.0
+rotateSpeed: 1
 shootLength: 30
 canOverdrive: true
 acceptCoolant: true
@@ -16,12 +16,12 @@ inaccuracy: 360
 recoilAmount: 0
 shootSound: none
 hitSize: 1
-ammoPerShot: 2
+ammoPerShot: 1
 pierce: true
 pierceCap: 5
 ammoTypes: {
 titanium: {
-type: BasicBulletType
+type: MissileBulletType
 damage: 70
 lifetime: 100
 speed: 4
