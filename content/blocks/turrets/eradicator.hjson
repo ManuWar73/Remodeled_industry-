@@ -44,10 +44,10 @@ surge-alloy: {
                                                     "fragBullets": 10,
                                                     "fragBullet": {
                                                                              "type": "BasicBulletType",
-                                                                             "lifetime": 600,
-                                                                             "speed": 8,
-                                                                             "damage": 300,
-                                                                             "homingDelay": 50,
+                                                                             "lifetime": 300,
+                                                                             "speed": 10,
+                                                                             "damage": 100,
+                                                                             "homingDelay": 10,
                                                                              "homingPower": 1000,
                                                                              "homingRange": 500,
                     }
@@ -56,10 +56,11 @@ surge-alloy: {
              }
              }
              requirements: [
-               titanium/4000
-               pyratite/4000
-               phase-fabric/4000
-               copper/4000
-               lead/4000
+               titanium/10000
+               pyratite/10000
+               phase-fabric/10000
+               copper/10000
+               lead/10000
+               surge-alloy/12000
              ]
              category: turret
