@@ -23,12 +23,11 @@ ammoTypes: {
 surge-alloy: {
                  "type": "MissileBulletType",
                  "lifetime": 1000,
-                 "speed": 2,
-                 "splashDamageRadius": 2,
-                 "splashDamage": 9,
+                 "speed": 5,
+                 "damage": 100
                  "frontColor": "ffff00",
                  "backColor": "00ffff",
-                 "homingPower": 1,
+                 "homingPower": 1000,
                  "homingRange": 20,
                  "fragBullets": 3,
                  "fragBullet": {
@@ -36,14 +35,28 @@ surge-alloy: {
                      "liquid": "oil",
                      "lifetime": 2,
                      "speed": 1,
-                     "fragBullets": 2,
+                     "fragBullets": 10,
                      "fragBullet": {
-                         "type": "LiquidBulletType",
-                         "liquid": "slag",
-                         "lifetime": 1,
-                         "speed": 2,
-                         "damage": 1,
+                         "type": "BasicBulletType",
+                         "lifetime": 60,
+                         "speed": 5,
+                         "damage": 300,
+                          "fragBullets": 10,
+                          "fragBullet": {
+                                                   "type": "BasicBulletType",
+                                                   "lifetime": 60,
+                                                   "speed": 5,
+                                                   "damage": 300,
+                                                    "fragBullets": 10,
+                                                    "fragBullet": {
+                                                                             "type": "BasicBulletType",
+                                                                             "lifetime": 60,
+                                                                             "speed": 5,
+                                                                             "damage": 300,
+                    }
+                    }
                      }
                  }
              }
              }
+             category: turret
