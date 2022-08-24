@@ -2,9 +2,9 @@ name: "Tracker"
 type: itemTurret
 size: 4
 health: 2000
-basePrefix: PRP
+basePrefix: "PRP-""
 shootCone: 360
-baseExplosiveness: 10a
+baseExplosiveness: 10
 maxAmmo: 200
 range: 300
 reload: 15.0
