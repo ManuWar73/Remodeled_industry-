@@ -7,21 +7,21 @@ shootCone: 5
 baseExplosiveness: 10
 maxAmmo: 200
 range: 600
-reload: 300.0
+reload: 120.0
 rotateSpeed: 3
-shootLength: 30
+shootLength: 300
 canOverdrive: true
 acceptCoolant: true
-recoilAmount: 10
+recoilAmount: 100
 shootSound: none
-hitSize: 1
-ammoPerShot: 3
+hitSize: 10
+ammoPerShot: 5
 pierce: true
 sprite: hexagone
 ammoTypes: {
 surge-alloy: {
 type: MissileBulletType
-damage: 3000
+damage: 6500
 lifetime: 200
 speed: 3
 shootEffect: none
@@ -31,7 +31,7 @@ despawnEffect: none
 }
 thorium: {
 type: MissileBulletType
-damage: 3500
+damage: 7000
 lifetime: 300
 speed: 2
 shootEffect: none
@@ -41,7 +41,7 @@ despawnEffect: none
 }
 titanium: {
 type: "MissileBulletType"
-damage: 4000
+damage: 8000
 lifetime: 600
 speed: 1
 shootEffect: none
