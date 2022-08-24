@@ -22,7 +22,7 @@ ammoPerShot: 1
 ammoTypes: {
 surge-alloy: {
                  "type": "MissileBulletType",
-                 "lifetime": 1000,
+                 "lifetime": 60,
                  "speed": 5,
                  "damage": 100
                  "frontColor": "ffff00",
