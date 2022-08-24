@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82f4e56c-e777-4c52-b53b-89400b097068" name="Changes" comment="Update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/fall-turret.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/fall-turret.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/tracker.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/tracker.hjson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/blocks/turrets/bases/a" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,20 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661242464568</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Changed and updated mod.hjson to make compatible with V7">
-      <created>1661243865944</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1661243865944</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Changed and updated puncher.hjson to make compatible">
-      <created>1661244163057</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1661244163057</updated>
     </task>
     <task id="LOCAL-00009" summary="Changed and updated mod.hjson to make compatible">
       <created>1661244322981</created>
@@ -423,7 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661326415441</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Update">
+      <created>1661327237933</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1661327237933</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Update">
+      <created>1661327391165</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1661327391165</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
