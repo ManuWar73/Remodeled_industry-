@@ -4,7 +4,7 @@ size: 2
 health: 1500
 basePrefix: "PRP-"
 shootCone: 5
-baseExplosiveness: 10
+baseExplosiveness: 100
 maxAmmo: 200
 range: 600
 reload: 120.0
@@ -12,13 +12,13 @@ rotateSpeed: 3
 shootLength: 300
 canOverdrive: true
 acceptCoolant: true
-recoilAmount: 100
+recoil: 10
+recoilTime: 80
 shootSound: none
 hitSize: 10
 pierceCap: 3
 ammoPerShot: 5
 pierce: true
-sprite: hexagone
 ammoTypes: {
 surge-alloy: {
 type: MissileBulletType

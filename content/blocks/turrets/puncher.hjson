@@ -1,6 +1,6 @@
 name: puncher
 type: itemTurret
-size: 3
+size: 1
 health: 1000
 BasePrefix: "PRP-"
 shootCone: 5

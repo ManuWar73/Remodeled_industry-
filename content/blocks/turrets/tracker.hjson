@@ -25,7 +25,7 @@ type: MissileBulletType
 damage: 70
 lifetime: 100
 speed: 4
-homingDelay: 120
+homingDelay: 50
 homingPower: 1000
 homingRange: 200
 shootEffect: none
