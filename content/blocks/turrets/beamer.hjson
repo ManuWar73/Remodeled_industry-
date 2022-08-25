@@ -1,0 +1,38 @@
+name: "Beamer"
+type: powerTurret
+size: 2
+health: 1500
+basePrefix: "PRP-"
+shootCone: 5
+powerUse: 1000
+baseExplosiveness: 0
+range: 600
+reload: 120.0
+rotateSpeed: 3
+shootLength: 300
+canOverdrive: true
+acceptCoolant: true
+recoil: 10
+recoilTime: 80
+shootSound: none
+hitSize: 10
+pierceCap: 3
+ammoPerShot: 5
+pierce: true
+ammoTypes: {
+titanium: {
+type: "LaserBulletType"
+damage: 100
+lifetime: 600
+speed: 1
+shootEffect: none
+smokeEffect: none
+hitEffect: none
+despawnEffect: none
+}
+}
+requirements: [
+  titanium/2000
+
+]
+category: turret

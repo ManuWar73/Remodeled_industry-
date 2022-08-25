@@ -7,7 +7,7 @@ shootCone: 360
 baseExplosiveness: 10
 maxAmmo: 200
 range: 480
-reload: 10.0
+reload: 5.0
 rotateSpeed: 1
 shootLength: 30
 canOverdrive: true
@@ -18,15 +18,16 @@ shootSound: none
 hitSize: 1
 ammoPerShot: 1
 pierce: true
-pierceCap: 5
+pierceCap: 20
 ammoTypes: {
 titanium: {
 type: MissileBulletType
 damage: 70
 "frontColor": "f5e000",
-"backColor": "000000",
+"backColor": "000505",
 lifetime: 50
 speed: 4
+homingPower: 0
 shootEffect: none
 smokeEffect: none
 hitEffect: none
@@ -35,7 +36,7 @@ fragBullets: 1
 fragBullet: {
 "type": "MissileBulletType",
 "frontColor": "f5e000",
-"backColor": "000000",
+"backColor": "000505",
                                                    "lifetime": 60,
                                                    "speed": 0,
                                                    "damage": 300,
@@ -43,13 +44,15 @@ fragBullet: {
                                                     "fragBullet": {
                                                     "type": "MissileBulletType",
                                                     "frontColor": "f5e000",
-                                                    "backColor": "000000",
+                                                    "backColor": "000505",
                                                                                                        "lifetime": 60,
                                                                                                        "speed": 8,
                                                                                                        "damage": 300,
                                                                                                        homingPower: 1000
                                                                                                        homingRange: 480
                                                                                                        homingDelay:0
+                                                                                                       pierce: true
+                                                                                                       pierceCap: 5
                                                     }
 }
 }
