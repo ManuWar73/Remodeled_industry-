@@ -18,10 +18,10 @@ shootSound: none
 hitSize: 10
 pierceCap: 3
 ammoPerShot: 5
+shootType: "LaserBulletType"
 pierce: true
 ammoTypes: {
 titanium: {
-shootType: "LaserBulletType"
 damage: 100
 lifetime: 600
 speed: 1
