@@ -18,19 +18,16 @@ shootSound: none
 hitSize: 10
 pierceCap: 3
 ammoPerShot: 5
-shootType: "LaserBulletType"
+shootType: {
+           damage: 1000
+           lifetime: 600
+           speed: 1
+           shootEffect: none
+           smokeEffect: none
+           hitEffect: none
+           despawnEffect: none
+           }
 pierce: true
-ammoTypes: {
-titanium: {
-damage: 100
-lifetime: 600
-speed: 1
-shootEffect: none
-smokeEffect: none
-hitEffect: none
-despawnEffect: none
-}
-}
 requirements: [
   titanium/2000
 
