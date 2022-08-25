@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82f4e56c-e777-4c52-b53b-89400b097068" name="Changes" comment="Update" />
+    <list default="true" id="82f4e56c-e777-4c52-b53b-89400b097068" name="Changes" comment="Update">
+      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/beamer.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/beamer.hjson" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,27 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661242464568</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Update">
-      <created>1661321639668</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1661321639668</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Update">
-      <created>1661322474743</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1661322474743</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Update">
-      <created>1661322616116</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1661322616116</updated>
     </task>
     <task id="LOCAL-00051" summary="Update">
       <created>1661322722494</created>
@@ -405,7 +386,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661423431103</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Update">
+      <created>1661423581642</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1661423581642</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Update">
+      <created>1661423730423</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1661423730423</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Update">
+      <created>1661423886562</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1661423886562</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -19,6 +19,7 @@ hitSize: 10
 pierceCap: 3
 ammoPerShot: 5
 shootType: {
+           bulletType: LaserBulletType
            damage: 1000
            lifetime: 600
            speed: 1
@@ -26,6 +27,7 @@ shootType: {
            smokeEffect: none
            hitEffect: none
            despawnEffect: none
+           powerUse: 1000
            }
 pierce: true
 requirements: [
