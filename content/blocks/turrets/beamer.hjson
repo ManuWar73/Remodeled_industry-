@@ -21,7 +21,7 @@ ammoPerShot: 5
 pierce: true
 ammoTypes: {
 titanium: {
-type: "LaserBulletType"
+shootType: "LaserBulletType"
 damage: 100
 lifetime: 600
 speed: 1
