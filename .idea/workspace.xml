@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82f4e56c-e777-4c52-b53b-89400b097068" name="Changes" comment="Update">
-      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/eradicator.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/eradicator.hjson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/tracker.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/tracker.hjson" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +40,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/manue/IdeaProjects/Remodeled-industry/sprites/blocks/turrets/bullets",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/manue/IdeaProjects/Remodeled-industry/sprites/blocks/turrets/bullets&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\manue\IdeaProjects\Remodeled-industry\sprites\blocks\turrets\bullets" />
@@ -54,21 +55,6 @@
       <recent name="C:\Users\manue\IdeaProjects\Remodeled-industry\content" />
       <recent name="C:\Users\manue\IdeaProjects\Remodeled-industry\content\blocks\turrets\item" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Remodeled-industry" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Remodeled-industry" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,34 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661242464568</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Update">
-      <created>1661279853742</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1661279853742</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Update">
-      <created>1661280026038</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1661280026038</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Update">
-      <created>1661280699908</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1661280699908</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Update">
-      <created>1661283214984</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1661283214984</updated>
     </task>
     <task id="LOCAL-00046" summary="Update">
       <created>1661283501399</created>
@@ -422,7 +380,35 @@
       <option name="project" value="LOCAL" />
       <updated>1661368676843</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Update">
+      <created>1661369011200</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1661369011200</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Update">
+      <created>1661369289548</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1661369289548</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Update">
+      <created>1661369416070</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1661369416070</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Update">
+      <created>1661369565521</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1661369565521</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
