@@ -4,7 +4,6 @@ size: 2
 health: 1500
 basePrefix: "PRP-"
 shootCone: 180
-powerUse: 1000
 baseExplosiveness: 0
 range: 160
 rotateSpeed: 3
@@ -18,7 +17,7 @@ shootShake: 1
 chargeTime: 120
 pierceCap: 3
 shootType: {
-           bulletType: ContinuousLaserBulletType
+           bulletType: LaserBulletType
            damage: 500
            width: 40
            length: 160
