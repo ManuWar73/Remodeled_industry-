@@ -7,7 +7,6 @@ shootCone: 180
 powerUse: 1000
 baseExplosiveness: 0
 range: 160
-reload: 120.0
 rotateSpeed: 3
 canOverdrive: true
 acceptCoolant: true
