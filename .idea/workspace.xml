@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82f4e56c-e777-4c52-b53b-89400b097068" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/beamer.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/beamer.hjson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/mod.hjson" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +63,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661242464568</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Update">
-      <created>1661324587381</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1661324587382</updated>
     </task>
     <task id="LOCAL-00054" summary="Update">
       <created>1661326162399</created>
@@ -409,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661519617235</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Update">
+      <created>1661525594918</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1661525594918</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

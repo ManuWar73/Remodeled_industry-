@@ -2,4 +2,5 @@ displayName: "remodeled-industry"
 name: "remodeled-industry"
 author: "ManuWar73"
 description: "WIP"
+minGameVersion: 137
 hiddenBrowser: "false"
