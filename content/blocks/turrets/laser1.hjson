@@ -11,7 +11,7 @@ recoilTime: 80
 shootSound: none
 hitSize: 40
 shootShake: 50
-reload: 0.011
+reload: 0.1
 chargeTime: 300
 pierceCap: 100
 consumes: {
@@ -22,7 +22,8 @@ shootType: {
            damage: 500
            width: 40
            length: 360
-                      colors: [FF0000, FF6F00, 4B4B4B]
+           lightRadius: 40
+           lightColor: FF0000
            }
 requirements: [
   titanium/2000
