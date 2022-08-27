@@ -1,4 +1,4 @@
-name: "Beamer"
+name: "Beamer 2.0"
 type: PowerTurret
 size: 2
 health: 1500
@@ -15,14 +15,14 @@ shootShake: 20
 chargeTime: 120
 pierceCap: 100
 consumes: {
-    power: 100
+    power: 75
     }
 shootType: {
-           type: LaserBulletType
-           damage: 20000
+           type: ContinuousLaserBulletType
+           damage: 200
            width: 40
            length: 160
-           colors: [7382f040, 7382f0, ffffff]
+           colors: [FF0000, FF6F00, 000000]
            }
 requirements: [
   titanium/2000
