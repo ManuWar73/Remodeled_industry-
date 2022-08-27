@@ -14,6 +14,7 @@ hitSize: 40
 shootShake: 20
 chargeTime: 120
 pierceCap: 100
+buffered: true
 shootType: {
            type: LaserBulletType
            damage: 20000
