@@ -6,7 +6,6 @@ shootCone: 180
 range: 160
 rotateSpeed: 3
 canOverdrive: true
-powerUse: 1000.0
 recoil: 10
 recoilTime: 80
 reload: 120
@@ -21,6 +20,9 @@ shootType: {
            width: 40
            length: 160
            colors: [7382f040, 7382f0, ffffff]
+           consumes: {
+             power: 1000
+           }
            }
 requirements: [
   titanium/2000
