@@ -8,7 +8,6 @@ rotateSpeed: 3
 canOverdrive: true
 recoil: 10
 recoilTime: 80
-reload: 120
 shootSound: none
 hitSize: 40
 shootShake: 20
