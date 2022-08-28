@@ -15,7 +15,7 @@ shootShake: 20
 chargeTime: 120
 pierceCap: 100
 consumes: {
-    power: 100
+    power: 3000
     }
 shootType: {
            type: LaserBulletType
