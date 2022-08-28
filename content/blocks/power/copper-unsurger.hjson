@@ -18,4 +18,4 @@ requirements: [
 category: power
 ambientSound: beam
 ambientSoundVolume: 0.5
-research: fusion-reactor
+research: rtg-generator
