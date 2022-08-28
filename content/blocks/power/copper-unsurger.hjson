@@ -1,4 +1,4 @@
-type: SingleTypeGenerator
+type: ConsumeGenerator
 itemDuration: 60
 size: 3
 hasLiquids: true
