@@ -19,7 +19,7 @@ consumes: {
     }
 shootType: {
            type: ContinuousLaserBulletType
-           damage: 5
+           damage: 500
            width: 40
            length: 360
            lightRadius: 40
