@@ -1,0 +1,24 @@
+type: ImpactReactor
+itemDuration: 120
+size: 3
+hasLiquids: false
+powerProduction: 10500
+plasma1: 666666
+plasma2: 3b3b3b
+consumes: {
+  items: {
+    items: [
+      surged-copper/1
+    ]
+  }
+}
+requirements: [
+  copper/13550
+  lead/14330
+  silicon/13550
+  surged-copper/300
+]
+category: power
+ambientSound: beam
+ambientSoundVolume: 0.5
+research: fusion-reactor
