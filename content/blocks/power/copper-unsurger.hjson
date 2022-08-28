@@ -1,6 +1,8 @@
 type: ImpactReactor
 itemDuration: 60
 size: 3
+plasma1: 666666
+plasma2: 3b3b3b
 powerProduction: 10500
 consumes: {
   items: {
