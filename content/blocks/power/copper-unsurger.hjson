@@ -1,10 +1,7 @@
 type: ImpactReactor
-itemDuration: 120
+itemDuration: 60
 size: 3
-hasLiquids: false
 powerProduction: 10500
-plasma1: 666666
-plasma2: 3b3b3b
 consumes: {
   items: {
     items: [

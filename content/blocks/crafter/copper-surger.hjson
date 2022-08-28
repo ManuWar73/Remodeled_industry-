@@ -44,7 +44,7 @@ updateEffect: {
   colorTo: a36ae6
 }
 consumes: {
-  power: 10000
+  power: 166.6
   items: {
     items: [
       copper/1
