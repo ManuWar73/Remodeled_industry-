@@ -15,7 +15,7 @@ reload: 0.01
 chargeTime: 300
 pierceCap: 100
 consumes: {
-    power: 2
+    power: 200
     }
 shootType: {
            type: ContinuousLaserBulletType
