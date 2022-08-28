@@ -11,15 +11,15 @@ recoilTime: 80
 shootSound: none
 hitSize: 40
 shootShake: 50
-reload: 1
+reload: 0.01
 chargeTime: 300
 pierceCap: 100
 consumes: {
-    power: 200
+    power: 2
     }
 shootType: {
            type: ContinuousLaserBulletType
-           damage: 500
+           damage: 5
            width: 40
            length: 360
            lightRadius: 40
