@@ -1,8 +1,6 @@
-type: ImpactReactor
+type: SingleTypeGenerator
 itemDuration: 60
 size: 3
-plasma1: 666666
-plasma2: 3b3b3b
 hasLiquids: true
 powerProduction: 183
 consumes: {
