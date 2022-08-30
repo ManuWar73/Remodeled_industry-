@@ -13,7 +13,7 @@ canOverdrive: true
 acceptCoolant: false
 recoilAmount: 5
 shootSound: laser
-ammoPerShot: 0.1
+ammoPerShot: 1
 ammoTypes: {
 drifted-note: {
 shoot: {
