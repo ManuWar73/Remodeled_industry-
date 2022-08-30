@@ -1,5 +1,5 @@
-name: Drifted notes turret
-type: itemTurret
+name: Drifted Notes
+type: ItemTurret
 size: 3
 health: 1000
 shootCone: 5
@@ -13,12 +13,13 @@ canOverdrive: true
 acceptCoolant: false
 recoilAmount: 5
 shootSound: laser
-ammoPerShot: 0.5
+ammoPerShot: 3
+shoot: {
+shots: 2
+}
 ammoTypes: {
 drifted-note: {
-shoot: {
-shoots: 2
-}
+
 type: ContinuousLaserBulletType
 damage: 450
 lifetime: 15
