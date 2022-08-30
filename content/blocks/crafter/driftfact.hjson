@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Drifted factory [scarlet] (WIP)[]
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 240
+consumes: {
+  power: 1.75
+  items: {
+    items: [
+      copper/3
+      lead/2
+    ]
+  }
+}
+requirements: [
+  titanium/120
+  thorium/150
+  surge-alloy/50
+  phase-fabric/25
+]
+category: crafting
+research: alloy-smelter
+outputItem: surged-copper/1

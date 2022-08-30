@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82f4e56c-e777-4c52-b53b-89400b097068" name="Changes" comment="Update" />
+    <list default="true" id="82f4e56c-e777-4c52-b53b-89400b097068" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/content/blocks/crafter/driftfact.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blocks/turrets/driftednotesturret.hjson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/items/drifted-note.hjson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle_es.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blocks/turrets/puncher.hjson" beforeDir="false" afterPath="$PROJECT_DIR$/content/blocks/turrets/puncher.hjson" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,20 +70,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661242464568</updated>
-    </task>
-    <task id="LOCAL-00083" summary="Update">
-      <created>1661366652834</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1661366652834</updated>
-    </task>
-    <task id="LOCAL-00084" summary="Update">
-      <created>1661367210653</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1661367210653</updated>
     </task>
     <task id="LOCAL-00085" summary="Update">
       <created>1661367580531</created>
@@ -406,7 +400,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661714637967</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="Update">
+      <created>1661714904811</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1661714904811</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Update">
+      <created>1661715052664</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1661715052664</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
