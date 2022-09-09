@@ -22,8 +22,8 @@ shootType: {
            damage: 200
            width: 4
            length: 4
-           lifetime: 1
-           speed: 320
+           lifetime: 10
+           speed: 32
            colors: [7382f040, 7382f0, ffffff]
            }
 requirements: [
