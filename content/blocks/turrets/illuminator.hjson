@@ -10,7 +10,7 @@ recoil: 10
 recoilTime: 10
 reload: 60
 shootSound: "laser"
-hitSize: 40
+hitSize: 4
 shootShake: 20
 chargeTime: 0
 pierceCap: 100
@@ -24,7 +24,6 @@ shootType: {
            length: 4
            lifetime: 20
            speed: 16
-           colors: [7382f040, 7382f0, ffffff]
            }
 requirements: [
   beryllium/200
