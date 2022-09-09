@@ -1,0 +1,34 @@
+name: "Illuminator"
+type: PowerTurret
+size: 1
+health: 500
+shootCone: 180
+range: 320
+rotateSpeed: 10
+canOverdrive: true
+recoil: 10
+recoilTime: 30
+reload: 60
+shootSound: "laser"
+hitSize: 40
+shootShake: 20
+chargeTime: 0
+pierceCap: 100
+consumes: {
+    power: 30
+    }
+shootType: {
+           type: "ArtilleryBulletType"
+           damage: 200
+           width: 4
+           length: 4
+           lifetime: 1
+           speed: 320
+           colors: [7382f040, 7382f0, ffffff]
+           }
+requirements: [
+  beryllium/200
+  tungsten/100
+
+]
+category: turret

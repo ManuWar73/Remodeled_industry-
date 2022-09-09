@@ -18,7 +18,7 @@ consumes: {
     power: 200
     }
 shootType: {
-           type: ContinuousLaserBulletType
+           type: "ContinuousLaserBulletType"
            damage: 500
            width: 40
            length: 360
