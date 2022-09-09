@@ -3,11 +3,11 @@ type: PowerTurret
 size: 1
 health: 500
 shootCone: 180
-range: 320
+range: 310
 rotateSpeed: 10
 canOverdrive: true
 recoil: 10
-recoilTime: 30
+recoilTime: 10
 reload: 60
 shootSound: "laser"
 hitSize: 40
@@ -15,15 +15,15 @@ shootShake: 20
 chargeTime: 0
 pierceCap: 100
 consumes: {
-    power: 30
+    power: 300
     }
 shootType: {
            type: "ArtilleryBulletType"
            damage: 200
            width: 4
            length: 4
-           lifetime: 10
-           speed: 32
+           lifetime: 20
+           speed: 16
            colors: [7382f040, 7382f0, ffffff]
            }
 requirements: [
