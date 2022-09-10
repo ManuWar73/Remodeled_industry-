@@ -21,7 +21,7 @@ shootType: {
            type: "PointBulletType"
            damage: 200
            trailEffect: railTrail
-		trailColor: aqua
+		trailColor: 42d7c0
 		trailInterval: 12
            }
 requirements: [
