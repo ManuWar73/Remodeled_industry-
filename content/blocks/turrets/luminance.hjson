@@ -17,7 +17,7 @@ consumes: {
     }
 shootType: {
            type: "PointBulletType"
-           damage: 150
+           damage: 200
            speed: 16
            lifetime: 40
            trailEffect: "railTrail"
@@ -25,8 +25,8 @@ shootType: {
            pierceCap: 100
            pierce: true
            hitSize: 8
-	   splashDamage: 50
-	   splashDamageRadius: 8
+	   splashDamage: 200
+	   splashDamageRadius: 24
 	   }
 requirements: [
   beryllium/200
