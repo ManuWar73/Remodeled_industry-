@@ -12,7 +12,7 @@ shootSound: "laser"
 hitSize: 4
 shootShake: 20
 chargeTime: 0
-pierceCap: 100
+outline: false
 consumes: {
     power: 30
     }
@@ -23,10 +23,11 @@ shootType: {
            lifetime: 20
            trailEffect: "railTrail"
 		       trailInterval: 12
+           pierceCap: 100
            }
 requirements: [
   beryllium/200
   tungsten/100
-  
+
 ]
 category: turret
