@@ -27,5 +27,6 @@ shootType: {
 requirements: [
   beryllium/200
   tungsten/100
+  
 ]
 category: turret
