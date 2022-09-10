@@ -6,8 +6,8 @@ shootCone: 180
 range: 310
 rotateSpeed: 10
 canOverdrive: true
-recoil: 10
-recoilTime: 10
+recoil: 20
+recoilTime: 30
 reload: 60
 shootSound: "laser"
 hitSize: 4
@@ -21,7 +21,7 @@ shootType: {
            type: "PointBulletType"
            damage: 200
            trailEffect: railTrail
-		trailColor: "ff0000"
+		trailColor: "aqua"
 		trailInterval: 12
            }
 requirements: [
