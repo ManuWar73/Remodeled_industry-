@@ -24,11 +24,14 @@ shootType: {
 		       trailInterval: 12
            pierceCap: 100
            pierce: true
-           hitSize: 4
-           }
+           hitSize: 8
+	   splashDamage: 50
+	   splashDamageArea: 8
+	   }
 requirements: [
   beryllium/200
   tungsten/100
-
+  thorium/100
+  surge-alloy/25
 ]
 category: turret
