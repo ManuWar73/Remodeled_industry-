@@ -18,12 +18,12 @@ consumes: {
     power: 300
     }
 shootType: {
-           type: "ArtilleryBulletType"
+           type: "PointBulletType"
            damage: 200
-           width: 4
-           length: 4
-           lifetime: 20
-           speed: 16
+           trailEffect: railTrail
+		trailColor: "ff0000"
+		trailInterval: 12
+           }
            }
 requirements: [
   beryllium/200
