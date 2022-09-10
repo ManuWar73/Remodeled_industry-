@@ -14,7 +14,7 @@ shootShake: 20
 chargeTime: 0
 pierceCap: 100
 consumes: {
-    power: 300
+    power: 30
     }
 shootType: {
            type: "PointBulletType"
