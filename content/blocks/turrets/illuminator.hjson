@@ -1,11 +1,11 @@
 name: "Illuminator"
-type: PowerTurret
+type: "PowerTurret"
 size: 1
 health: 500
 shootCone: 180
 range: 310
 rotateSpeed: 10
-canOverdrive: true
+canOverdrive: "true"
 recoil: 20
 recoilTime: 30
 reload: 60
@@ -22,7 +22,7 @@ shootType: {
            damage: 200
            speed: 16
            lifetime: 20
-           trailEffect: railTrail
+           trailEffect: "railTrail"
 		       trailInterval: 12
            }
 requirements: [
