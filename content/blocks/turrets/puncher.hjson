@@ -8,10 +8,8 @@ maxAmmo: 200
 range: 600
 reload: 5.0
 rotateSpeed: 30
-shootLength: 30
 canOverdrive: true
-acceptCoolant: true
-recoilAmount: 2
+recoil: 2
 shootSound: none
 ammoPerShot: 2
 ammoTypes: {

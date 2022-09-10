@@ -10,10 +10,6 @@ recoil: 10
 recoilTime: 80
 reload: 120
 shootSound: none
-hitSize: 40
-shootShake: 20
-chargeTime: 120
-pierceCap: 100
 consumes: {
     power: 3000
     }
@@ -22,6 +18,11 @@ shootType: {
            damage: 20000
            width: 40
            length: 160
+           hitSize: 40
+           shootShake: 20
+           chargeTime: 120
+           pierceCap: 100
+           pierce: true
            colors: [7382f040, 7382f0, ffffff]
            }
 requirements: [

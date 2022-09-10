@@ -8,16 +8,10 @@ maxAmmo: 200
 range: 600
 reload: 300.0
 rotateSpeed: 3
-length: 80
-width: 80
 canOverdrive: true
-acceptCoolant: true
 recoil: 10
 recoilTime: 80
 shootSound: none
-hitSize: 80
-pierce: true
-pierceCap: 10000
 ammoPerShot: 1
 ammoTypes: {
 surge-alloy: {
@@ -25,6 +19,8 @@ surge-alloy: {
                  "lifetime": 60,
                  "speed": 5,
                  "damage": 100
+                 length: 80
+width: 80
                  "frontColor": "ffff00",
                  "backColor": "00ffff",
                  "homingPower": 1000,
@@ -36,16 +32,25 @@ surge-alloy: {
                          "speed": 5,
                          "damage": 300,
                           "fragBullets": 10,
+                          hitSize: 80
+pierce: true
+pierceCap: 10000
                           "fragBullet": {
                                                    "type": "BasicBulletType",
                                                    "lifetime": 60,
                                                    "speed": 5,
                                                    "damage": 300,
+                                                   hitSize: 80
+pierce: true
+pierceCap: 10000
                                                     "fragBullets": 10,
                                                     "fragBullet": {
-                                                                             "type": "BasicBulletType",
+                                                                             "type": "ArtilleryBulletType",
                                                                              "lifetime": 300,
                                                                              "speed": 10,
+                                                                             hitSize: 80
+pierce: true
+pierceCap: 3
                                                                              "damage": 100,
                                                                              "homingDelay": 10,
                                                                              "homingPower": 1000,

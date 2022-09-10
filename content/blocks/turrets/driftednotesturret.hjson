@@ -8,20 +8,19 @@ maxAmmo: 100
 range: 300
 reload: 0.01
 rotateSpeed: 12
-shootLength: 30
 canOverdrive: true
-acceptCoolant: false
-recoilAmount: 5
+scaledHealth: 60
+recoil: 1
 shootSound: laser
 ammoPerShot: 1
-ammoTypes: {
-drifted-note: {
 shoot: {
 shoots: 2
 }
+ammoTypes: {
+drifted-note: {
 type: ContinuousLaserBulletType
 damage: 450
-scaledHealth: 60
+shootLength: 30
 speed: 20
 shootEffect: none
 smokeEffect: none

@@ -9,11 +9,7 @@ canOverdrive: true
 recoil: 10
 recoilTime: 80
 shootSound: none
-hitSize: 40
-shootShake: 50
 reload: 0.01
-chargeTime: 300
-pierceCap: 100
 consumes: {
     power: 200
     }
@@ -24,6 +20,10 @@ shootType: {
            length: 360
            lightRadius: 40
            lightColor: FF0000
+           hitSize: 40
+           chargeTime: 300
+           pierceCap: 100
+shootShake: 50
            }
 requirements: [
   titanium/2000

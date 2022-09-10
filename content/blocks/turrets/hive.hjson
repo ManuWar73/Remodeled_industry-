@@ -2,23 +2,17 @@ name: "Hive"
 type: itemTurret
 size: 4
 health: 2000
-basePrefix: "PRP-"
 shootCone: 360
 baseExplosiveness: 10
 maxAmmo: 200
 range: 480
 reload: 5.0
 rotateSpeed: 1
-shootLength: 30
 canOverdrive: true
-acceptCoolant: true
 inaccuracy: 360
-recoilAmount: 0
+recoil: 0
 shootSound: none
-hitSize: 1
 ammoPerShot: 1
-pierce: true
-pierceCap: 20
 ammoTypes: {
 titanium: {
 type: MissileBulletType
@@ -33,10 +27,13 @@ smokeEffect: none
 hitEffect: none
 despawnEffect: none
 fragBullets: 1
+pierce: true
+pierceCap: 20
 fragBullet: {
 "type": "MissileBulletType",
 "frontColor": "f5e000",
 "backColor": "000505",
+length: 30
                                                    "lifetime": 60,
                                                    "speed": 0,
                                                    "damage": 300,
@@ -45,6 +42,7 @@ fragBullet: {
                                                     "type": "MissileBulletType",
                                                     "frontColor": "f5e000",
                                                     "backColor": "000505",
+                                                    length: 30
                                                                                                        "lifetime": 60,
                                                                                                        "speed": 8,
                                                                                                        "damage": 300,
@@ -53,6 +51,7 @@ fragBullet: {
                                                                                                        homingDelay:0
                                                                                                        pierce: true
                                                                                                        pierceCap: 5
+                                                                                                       length: 30
                                                     }
 }
 }
