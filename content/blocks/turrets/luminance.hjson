@@ -2,7 +2,7 @@ type: "PowerTurret"
 size: 1
 health: 500
 shootCone: 180
-range: 320
+range: 640
 rotateSpeed: 10
 canOverdrive: "true"
 recoil: 4
@@ -13,13 +13,13 @@ shootShake: 20
 chargeTime: 0
 outline: false
 consumes: {
-    power: 30
+    power: 10
     }
 shootType: {
            type: "PointBulletType"
-           damage: 200
+           damage: 150
            speed: 16
-           lifetime: 20
+           lifetime: 40
            trailEffect: "railTrail"
 		       trailInterval: 12
            pierceCap: 100
