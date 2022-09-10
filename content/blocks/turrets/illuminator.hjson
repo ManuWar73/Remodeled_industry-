@@ -24,7 +24,6 @@ shootType: {
 		trailColor: "ff0000"
 		trailInterval: 12
            }
-           }
 requirements: [
   beryllium/200
   tungsten/100
