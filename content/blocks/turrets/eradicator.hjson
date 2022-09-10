@@ -32,7 +32,6 @@ width: 80
                          "speed": 5,
                          "damage": 300,
                           "fragBullets": 10,
-                          hitSize: 80
 pierce: true
 pierceCap: 10000
                           "fragBullet": {
@@ -40,7 +39,6 @@ pierceCap: 10000
                                                    "lifetime": 60,
                                                    "speed": 5,
                                                    "damage": 300,
-                                                   hitSize: 80
 pierce: true
 pierceCap: 10000
                                                     "fragBullets": 10,
@@ -48,7 +46,6 @@ pierceCap: 10000
                                                                              "type": "ArtilleryBulletType",
                                                                              "lifetime": 300,
                                                                              "speed": 10,
-                                                                             hitSize: 80
 pierce: true
 pierceCap: 3
                                                                              "damage": 100,

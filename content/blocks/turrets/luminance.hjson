@@ -2,14 +2,13 @@ type: "PowerTurret"
 size: 1
 health: 500
 shootCone: 180
-range: 310
+range: 320
 rotateSpeed: 10
 canOverdrive: "true"
-recoil: 20
+recoil: 4
 recoilTime: 30
 reload: 60
 shootSound: "laser"
-hitSize: 4
 shootShake: 20
 chargeTime: 0
 outline: false
@@ -24,6 +23,8 @@ shootType: {
            trailEffect: "railTrail"
 		       trailInterval: 12
            pierceCap: 100
+           pierce: true
+           hitSize: 4
            }
 requirements: [
   beryllium/200
