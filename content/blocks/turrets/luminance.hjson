@@ -26,7 +26,7 @@ shootType: {
            pierce: true
            hitSize: 8
 	   splashDamage: 50
-	   splashDamageArea: 8
+	   splashDamageRadius: 8
 	   }
 requirements: [
   beryllium/200
