@@ -18,7 +18,7 @@ weapons: [
     recoil: 1
     reload: 0.5
     shootX: 8
-    shootSound: beam
+    shootSound: laser
     shake: 0
     bullet: {
         type: "PointBulletType"
