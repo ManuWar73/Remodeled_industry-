@@ -16,6 +16,8 @@ ammoPerShot: 50
 ammoTypes: {
 surge-alloy: {
 type: BasicBulletType
+height: 32
+width: 32
 damage: 100000
 lifetime: 200
 speed: 3
@@ -26,6 +28,8 @@ despawnEffect: none
 frontColor: ffda0a
 backColor: ffda0a
 sprite: remodeled-industry-hexagone
+height: 32
+width: 32
 pierce: true
 pierceCap: 1000
 }
@@ -40,6 +44,8 @@ hitEffect: none
 frontColor: eb0aff
 backColor: eb0aff
 sprite: remodeled-industry-hexagone
+height: 32
+width: 32
 despawnEffect: none
 pierce: true
 pierceCap: 1000
