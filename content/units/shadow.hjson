@@ -3,85 +3,12 @@ health: 4500
 armor: 3
 flying: true
 hitSize: 32
-speed: 8
+speed: 6
 rotateSpeed: 8
 accel: 0.3
 drag: 0.1
 circleTarget: true
 weapons: [
-           {
-            name: shadow-bomb
-            x: 0
-    y: 0
-    ignoreRotation: true
-    rotate: true
-    shootCone: 360
-    reload: 60
-    minShootVelocity: 0
-    shootSound: beam
-    bullet: {
-      damage: 0
-      speed: 0
-      splashDamage: 750
-      splashDamageRadius: 80
-      hittable: false
-      absorbable: false
-      collides: false
-      collidesTiles: false
-      lifetime: 45
-      sprite: remodeled-industry-shadowbomb
-      width: 80
-      height: 80
-      hitShake: 4
-      frontColor: fffffff
-      backColor: e65555
-      lightColor: e65555
-      shrinkY: 0.6
-      shrinkX: 0.6
-      spin: 3
-      keepVelocity: false
-      hitEffect: none
-      hitSound: beam
-      despawnEffect: {
-        type: MultiEffect
-        lifetime: 60
-        effects: [
-          {
-            type: WaveEffect
-            sizeFrom: 0
-            sizeTo: 80
-            lifetime: 40
-            colorFrom: 4df6ff
-            colorTo: 43326c
-            strokeFrom: 5
-            strokeTo: 0
-          }
-          {
-            type: ParticleEffect
-            line: true
-            particles: 30
-            length: 65
-            lifetime: 40
-            colorTo: e6555520
-            strokeFrom: 3
-            strokeTo: 0
-            lenFrom: 12
-            lenTo: 8
-          }
-          {
-            type: ParticleEffect
-            particles: 20
-            length: 120
-            lifetime: 60
-            sizeFrom: 4
-            sizeTo: 4
-            colorFrom: 656565
-            colorTo: 65656500
-}
-        ]
-        }
-        }
-        }
         {
           name: shadow-minigun
           top: false
@@ -90,7 +17,7 @@ weapons: [
     heatColor: 85f0fe
     y: 0
     recoil: 1
-    reload: 10
+    reload: 5
     shootX: 0
     shootSound: laser
     shake: 0
@@ -101,7 +28,6 @@ weapons: [
            speed: 16
            scaleLifetime: true
            range: 200
-           speed: 12
            }
         }
         {
@@ -112,7 +38,7 @@ weapons: [
     heatColor: 85f0fe
     y: 0
     recoil: 1
-    reload: 10
+    reload: 30
     shootX: 0
     shootSound: laser
     shake: 0
@@ -120,18 +46,18 @@ weapons: [
         type: "ArtilleryBulletType"
            splashDamage: 400
            pierceArmor: true
-           splashDamageRadius: 24
+           splashDamageRadius: 80
            scaleLifetime: true
            range: 200
-           speed: 10
+           speed: 6
            despawnEffect: {
         type: MultiEffect
         lifetime: 60
         effects: [
           {
             type: WaveEffect
-            sizeFrom: 0
-            sizeTo: 24
+            sizeFrom: 3
+            sizeTo: 80
             lifetime: 40
             colorFrom: 4df6ff
             colorTo: 43326c
@@ -139,6 +65,27 @@ weapons: [
             strokeTo: 0.5
           }
           ]
+           }
+        }
+                {
+          name: shadow-laser
+          top: false
+    mirror: false
+    x: 0
+    heatColor: 85f0fe
+    y: 0
+    recoil: 1
+    reload: 120
+    shootX: 0
+    shootSound: laser
+    shake: 0
+    bullet: {
+        type: "LaserBulletType"
+           damage: 1000
+           pierceArmor: true
+           scaleLifetime: true
+           range: 200
+           speed: 12
            }
         }
         }
