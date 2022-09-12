@@ -1,0 +1,67 @@
+name: "Fall turret"
+type: itemTurret
+size: 4
+health: 1500
+shootCone: 5
+baseExplosiveness: 100
+maxAmmo: 200
+range: 600
+reload: 30.0
+rotateSpeed: 3
+canOverdrive: true
+recoil: 10
+recoilTime: 80
+shootSound: none
+ammoPerShot: 50
+ammoTypes: {
+surge-alloy: {
+type: BasicBulletType
+damage: 100000
+lifetime: 200
+speed: 3
+shootEffect: none
+smokeEffect: none
+hitEffect: none
+despawnEffect: none
+frontColor: ffda0a
+backColor: ffda0a
+sprite: remodeledindustry-hexagone
+pierce: true
+pierceCap: 1000
+}
+thorium: {
+type: BasicBulletType
+damage: 1000000
+lifetime: 300
+speed: 2
+shootEffect: none
+smokeEffect: none
+hitEffect: none
+frontColor: eb0aff
+backColor: eb0aff
+sprite: remodeledindustry-hexagone
+despawnEffect: none
+pierce: true
+pierceCap: 1000
+}
+titanium: {
+type: "BasicBulletType"
+damage: 10000000
+lifetime: 600
+speed: 1
+frontColor: 0ac2ff
+backColor: 0ac2ff
+sprite: remodeledindustry-hexagone
+shootEffect: none
+smokeEffect: none
+hitEffect: none
+despawnEffect: none
+pierce: true
+pierceCap: 1000
+}
+}
+requirements: [
+  titanium/5000
+
+]
+category: turret
