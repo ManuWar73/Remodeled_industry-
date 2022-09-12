@@ -27,6 +27,7 @@ hitEffect: none
 despawnEffect: none
 frontColor: ffda0a
 backColor: ffda0a
+spin: 2
 sprite: remodeled-industry-hexagone
 pierce: true
 pierceCap: 1000
@@ -43,6 +44,7 @@ frontColor: eb0aff
 backColor: eb0aff
 height: 48
 width: 32
+spin: 2
 sprite: remodeled-industry-hexagone
 despawnEffect: none
 pierce: true
@@ -57,6 +59,7 @@ frontColor: 0ac2ff
 backColor: 0ac2ff
 height: 48
 width: 32
+spin: 2
 sprite: remodeled-industry-hexagone
 shootEffect: none
 smokeEffect: none
