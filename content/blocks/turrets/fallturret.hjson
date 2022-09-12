@@ -23,7 +23,22 @@ lifetime: 200
 speed: 3
 shootEffect: none
 smokeEffect: none
-hitEffect: none
+HitEffect: {
+        type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 40
+            lifetime: 60
+            colorFrom: ffffff
+            colorTo: 000000
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          ]
+           }
 despawnEffect: none
 frontColor: ffda0a
 backColor: ffda0a
@@ -41,7 +56,22 @@ lifetime: 20
 speed: 6
 shootEffect: none
 smokeEffect: none
-hitEffect: none
+HitEffect: {
+        type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 40
+            lifetime: 60
+            colorFrom: ffffff
+            colorTo: 000000
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          ]
+           }
 despawnEffect: none
 frontColor: ffda0a
 backColor: ffda0a
@@ -58,7 +88,22 @@ lifetime: 300
 speed: 2
 shootEffect: none
 smokeEffect: none
-hitEffect: none
+HitEffect: {
+        type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 40
+            lifetime: 60
+            colorFrom: ffffff
+            colorTo: 000000
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          ]
+           }
 frontColor: eb0aff
 backColor: eb0aff
 height: 40
@@ -76,7 +121,22 @@ lifetime: 30
 speed: 4
 shootEffect: none
 smokeEffect: none
-hitEffect: none
+HitEffect: {
+        type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 40
+            lifetime: 60
+            colorFrom: ffffff
+            colorTo: 000000
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          ]
+           }
 frontColor: eb0aff
 backColor: eb0aff
 height: 20
@@ -101,7 +161,22 @@ spin: 1
 sprite: remodeled-industry-hexagone
 shootEffect: none
 smokeEffect: none
-hitEffect: none
+HitEffect: {
+        type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 40
+            lifetime: 60
+            colorFrom: ffffff
+            colorTo: 000000
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          ]
+           }
 despawnEffect: none
 pierce: true
 pierceCap: 1000
@@ -119,7 +194,22 @@ spin: 2
 sprite: remodeled-industry-hexagone
 shootEffect: none
 smokeEffect: none
-hitEffect: none
+HitEffect: {
+        type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 40
+            lifetime: 60
+            colorFrom: ffffff
+            colorTo: 000000
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          ]
+           }
 despawnEffect: none
 pierce: true
 pierceCap: 1000

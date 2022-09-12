@@ -32,7 +32,7 @@ type: "ArtilleryBulletType"
            sprite: remodeled-industry-tsarmissile
            width: 40
            height: 40
-           despawnShake: 100
+           despawnShake: 240
            shootEffect: {
             type: MultiEffect
         lifetime: 40
@@ -42,8 +42,8 @@ type: "ArtilleryBulletType"
             sizeFrom: 0
             sizeTo: 88
             lifetime: 30
-            colorFrom: 4df6ff
-            colorTo: 43326c
+            colorFrom: ff1a1a
+            colorTo: ff1a1a
             strokeFrom: 10
             strokeTo: 0.1
           }
@@ -52,10 +52,10 @@ type: "ArtilleryBulletType"
             sizeFrom: 0
             sizeTo: 88
             lifetime: 60
-            colorFrom: ffa861
+            colorFrom: ff1a1a
             colorTo: bcafa4
             strokeFrom: 5
-            strokeTo: 0.5
+            strokeTo: 1
           }
           ]
            }
