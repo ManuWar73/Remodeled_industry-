@@ -1,9 +1,9 @@
 type: flying
 health: 13500
-armor: 25
+armor: 3
 flying: true
 hitsize: 32
-speed: 2
+speed: 4
 rotateSpeed: 8
 accel: 0.1
 drag: 0.1
@@ -16,13 +16,13 @@ weapons: [
     x: 8
     y: 0
     recoil: 1
-    reload: 1
+    reload: 0.5
     shootX: 8
     shootSound: beam
     shake: 0
     bullet: {
         type: "PointBulletType"
-           splashDamage: 15
+           splashDamage: 30
            pierceArmor: true
            splashDamageRadius: 16
            speed: 16
