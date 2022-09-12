@@ -125,6 +125,7 @@ pierce: true
 pierceCap: 1000
 }
 }
+}
 requirements: [
   titanium/5000
 
