@@ -31,3 +31,5 @@ weapons: [
            pierce: true
            hitSize: 4
            }
+           }
+           ]
