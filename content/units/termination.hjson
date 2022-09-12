@@ -13,7 +13,7 @@ weapons: [
     name: termination-gun
     top: false
     mirror: true
-    x: 8
+    x: 16
     heatColor: 85f0fe
     y: 0
     recoil: 1
