@@ -17,18 +17,21 @@ consumes: {
     }
 shootType: {
            type: "PointBulletType"
-           damage: 150
+           damage: 100
            speed: 16
            lifetime: 40
            trailEffect: "railTrail"
 		       trailInterval: 12
            pierceCap: 100
            pierce: true
-           hitSize: 4
-           }
+           hitSize: 8
+	   splashDamage: 150
+	   splashDamageRadius: 40
+	   }
 requirements: [
   beryllium/200
   tungsten/100
-
+  thorium/100
+  surge-alloy/25
 ]
 category: turret
