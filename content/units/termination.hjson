@@ -6,7 +6,7 @@ hitsize: 32
 speed: 8
 rotateSpeed: 8
 accel: 0.1
-drag: 0.001
+drag: 0.01
 circleTarget: true
 weapons: [
   {
