@@ -31,8 +31,8 @@ type: "ArtilleryBulletType"
            despawnEffect: {
         type: MultiEffect
         lifetime: 
-        effects:[
-        {
+        effects: [
+         {
             type: WaveEffect
             sizeFrom: 3
             sizeTo: 400
@@ -41,6 +41,16 @@ type: "ArtilleryBulletType"
             colorTo: 43326c
             strokeFrom: 10
             strokeTo: 0.1
+          }
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 400
+            lifetime: 480
+            colorFrom: 4df6ff
+            colorTo: 43326c
+            strokeFrom: 5
+            strokeTo: 0
           }
           ]
            }
