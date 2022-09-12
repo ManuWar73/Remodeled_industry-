@@ -3,9 +3,9 @@ health: 4500
 armor: 3
 flying: true
 hitSize: 32
-speed: 6
+speed: 8
 rotateSpeed: 8
-accel: 6
+accel: 0.3
 drag: 0.1
 circleTarget: true
 weapons: [
@@ -14,9 +14,10 @@ weapons: [
             x: 0
     y: 0
     ignoreRotation: true
+    rotate: true
     shootCone: 360
     reload: 60
-    minShootVelocity: 1.0
+    minShootVelocity: 0
     shootSound: beam
     bullet: {
       damage: 0
@@ -28,7 +29,7 @@ weapons: [
       collides: false
       collidesTiles: false
       lifetime: 45
-      sprite: shadowbomb
+      sprite: remodeled-industry-shadowbomb
       width: 80
       height: 80
       hitShake: 4
@@ -79,6 +80,65 @@ weapons: [
 }
         ]
         }
+        }
+        {
+          name: shadow-minigun
+          top: false
+    mirror: true
+    x: 3
+    heatColor: 85f0fe
+    y: 0
+    recoil: 1
+    reload: 10
+    shootX: 0
+    shootSound: laser
+    shake: 0
+    bullet: {
+        type: "BasicBulletType"
+           damage: 20
+           pierceArmor: false
+           speed: 16
+           scaleLifetime: true
+           range: 200
+           speed: 12
+           }
+        }
+        {
+          name: shadow-artillery
+          top: false
+    mirror: true
+    x: 5
+    heatColor: 85f0fe
+    y: 0
+    recoil: 1
+    reload: 10
+    shootX: 0
+    shootSound: laser
+    shake: 0
+    bullet: {
+        type: "ArtilleryBulletType"
+           splashDamage: 400
+           pierceArmor: true
+           splashDamageRadius: 24
+           scaleLifetime: true
+           range: 200
+           speed: 10
+           despawnEffect: {
+        type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 24
+            lifetime: 40
+            colorFrom: 4df6ff
+            colorTo: 43326c
+            strokeFrom: 5
+            strokeTo: 0.5
+          }
+          ]
+           }
         }
         }
         ]
