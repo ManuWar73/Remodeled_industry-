@@ -3,9 +3,9 @@ health: 4500
 armor: 3
 flying: true
 hitSize: 32
-speed: 4
+speed: 10
 rotateSpeed: 8
-accel: 1
+accel: 3
 drag: 0.03
 circleTarget: true
 weapons: [
@@ -42,14 +42,14 @@ weapons: [
     y: 0
     ignoreRotation: true
     shootCone: 360
-    reload: 300
+    reload: 60
     minShootVelocity: 1.0
-    shootSound: plasmadrop
+    shootSound: beam
     bullet: {
       damage: 0
       speed: 0
-      splashDamage: 1400
-      splashDamageRadius: 120
+      splashDamage: 750
+      splashDamageRadius: 40
       hittable: false
       absorbable: false
       collides: false
@@ -75,10 +75,10 @@ weapons: [
           {
             type: WaveEffect
             sizeFrom: 0
-            sizeTo: 70
-            lifetime: 45
-            colorFrom: e65555
-            colorTo: e65555
+            sizeTo: 40
+            lifetime: 20
+            colorFrom: 4df6ff
+            colorTo: 43326c
             strokeFrom: 5
             strokeTo: 0
           }
