@@ -17,8 +17,10 @@ weapons: [
     heatColor: 85f0fe
     y: 0
     recoil: 1
-    reload: 5
+    reload: 2.5
     shootX: 0
+    width: 8
+    height: 8
     shootSound: laser
     shake: 0
     bullet: {
@@ -44,10 +46,11 @@ weapons: [
     shake: 0
     bullet: {
         type: "MissileBulletType"
-           splashDamage: 400
+           splashDamage: 500
            pierceArmor: true
            splashDamageRadius: 80
            range: 200
+           despawnHit: true
            speed: 6
            lifetime: 33.33333333333333
            despawnEffect: {
