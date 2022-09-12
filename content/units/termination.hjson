@@ -1,0 +1,33 @@
+type: flying
+health: 13500
+armor: 25
+flying: true
+hitsize: 32
+speed: 8
+rotateSpeed: 8
+accel: 1
+drag: 0
+circleTarget: true
+weapons: [
+  {
+    name: termination-gun
+    top: false
+    mirror: true
+    x: 8
+    y: 0
+    recoil: 1
+    reload: 1
+    shootX: 8
+    shootSound: artillery
+    shake: 2.5
+    bullet: {
+        type: "PointBulletType"
+           damage: 10
+           speed: 16
+           lifetime: 40
+           trailEffect: "railTrail"
+		       trailInterval: 12
+           pierceCap: 100
+           pierce: true
+           hitSize: 4
+           }
