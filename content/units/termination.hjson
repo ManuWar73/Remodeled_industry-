@@ -22,7 +22,7 @@ weapons: [
     shake: 2.5
     bullet: {
         type: "PointBulletType"
-           damage: 10
+           damage: 20
            speed: 16
            lifetime: 40
            trailEffect: "railTrail"
