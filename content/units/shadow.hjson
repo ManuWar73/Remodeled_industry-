@@ -26,7 +26,7 @@ weapons: [
            damage: 20
            pierceArmor: false
            speed: 16
-           scaleLifetime: true
+           scaleLife: true
            range: 200
            }
         }
@@ -43,11 +43,11 @@ weapons: [
     shootSound: laser
     shake: 0
     bullet: {
-        type: "ArtilleryBulletType"
+        type: "MissileBulletType"
            splashDamage: 400
            pierceArmor: true
            splashDamageRadius: 80
-           scaleLifetime: true
+           scaleLife: true
            range: 200
            speed: 6
            despawnEffect: {
@@ -84,7 +84,7 @@ weapons: [
         type: "LaserBulletType"
            damage: 1000
            pierceArmor: true
-           scaleLifetime: true
+           scaleLife: true
            range: 200
            speed: 12
            }
