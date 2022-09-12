@@ -11,7 +11,7 @@ rotateSpeed: 0.5
 canOverdrive: true
 recoil: 40
 recoilTime: 600
-heatColor: 61fffc
+heatColor: ffa861
 cooldownTime: 1100
 shootSound: none
 ammoPerShot: 250
@@ -50,8 +50,8 @@ type: "ArtilleryBulletType"
             sizeFrom: 0
             sizeTo: 400
             lifetime: 480
-            colorFrom: 4df6ff
-            colorTo: 43326c
+            colorFrom: ffa861
+            colorTo: bcafa4
             strokeFrom: 5
             strokeTo: 0
           }
