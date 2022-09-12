@@ -26,8 +26,8 @@ weapons: [
            damage: 20
            pierceArmor: false
            speed: 16
-           scaleLife: true
            range: 200
+           lifetime: 12.5
            }
         }
         {
@@ -47,9 +47,9 @@ weapons: [
            splashDamage: 400
            pierceArmor: true
            splashDamageRadius: 80
-           scaleLife: true
            range: 200
            speed: 6
+           lifetime: 33.33333333333333
            despawnEffect: {
         type: MultiEffect
         lifetime: 60
@@ -84,9 +84,9 @@ weapons: [
         type: "LaserBulletType"
            damage: 1000
            pierceArmor: true
-           scaleLife: true
            range: 200
            speed: 12
+           lifetime: 16.66666666666667
            }
         }
         ]

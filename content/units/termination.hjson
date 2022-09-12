@@ -8,6 +8,7 @@ rotateSpeed: 8
 accel: 0.1
 drag: 0.1
 circleTarget: false
+
 weapons: [
   {
     name: termination-gun
