@@ -2,7 +2,7 @@ type: flying
 health: 13500
 armor: 3
 flying: true
-hitsize: 32
+hitsize: 64
 speed: 4
 rotateSpeed: 8
 accel: 0.1
@@ -13,7 +13,7 @@ weapons: [
     name: termination-gun
     top: false
     mirror: true
-    x: 6
+    x: 8
     heatColor: 85f0fe
     y: 0
     recoil: 1
