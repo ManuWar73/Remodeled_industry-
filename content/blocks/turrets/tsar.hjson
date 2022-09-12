@@ -4,7 +4,7 @@ size: 8
 health: 5000
 shootCone: 1
 baseExplosiveness: 1000
-maxAmmo: 200
+maxAmmo: 1000
 range: 600
 reload: 1200
 rotateSpeed: 0.5
@@ -12,22 +12,25 @@ canOverdrive: true
 recoil: 40
 recoilTime: 600
 heatColor: 61fffc
-cooldownTime: 1800
+cooldownTime: 1100
 shootSound: none
-ammoPerShot: 100
+ammoPerShot: 250
 ammoTypes: {
 blast-compound: {
 type: "ArtilleryBulletType"
-           splashDamage: 3000
+           splashDamage: 7500
            pierceArmor: true
            splashDamageRadius: 400
            damage: 250
            pierce: true
            pierceCap: 1000
            pierceArmor: true
-           speed: 0.5
-           lifetime: 1200
+           speed: 1
+           lifetime: 600
+           scaledSplashDamage: true
            sprite: remodeled-industry-tsarmissile
+           width: 40
+           height: 40
            despawnEffect: {
         type: MultiEffect
         lifetime: 40
@@ -56,3 +59,10 @@ type: "ArtilleryBulletType"
            }
            }
            }
+           category: turret
+           requirements: [
+  surged-copper/1000
+  thorium/3000
+  titanium/5000
+
+]
