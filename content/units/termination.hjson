@@ -6,7 +6,7 @@ hitsize: 32
 speed: 8
 rotateSpeed: 8
 accel: 0.1
-drag: 1
+drag: 0.001
 circleTarget: true
 weapons: [
   {
@@ -16,20 +16,18 @@ weapons: [
     x: 8
     y: 0
     recoil: 1
-    reload: 1
+    reload: 5
     shootX: 8
     shootSound: artillery
-    shake: 2.5
+    shake: 0
     bullet: {
         type: "PointBulletType"
-           splashDamage: 10
-           splashDamageRadius: 8
+           splashDamage: 100
+           splashDamageRadius: 16
            speed: 16
            lifetime: 40
            trailEffect: "railTrail"
 		       trailInterval: 12
-           pierceCap: 100
-           pierce: true
            hitSize: 4
            }
            }
