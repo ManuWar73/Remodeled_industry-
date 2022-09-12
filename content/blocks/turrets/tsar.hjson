@@ -15,10 +15,11 @@ heatColor: ffa861
 cooldownTime: 1100
 shootSound: none
 ammoPerShot: 250
+shake: 20
 ammoTypes: {
 blast-compound: {
 type: "ArtilleryBulletType"
-           splashDamage: 7500
+           splashDamage: 5000
            pierceArmor: true
            splashDamageRadius: 400
            damage: 250
@@ -31,6 +32,33 @@ type: "ArtilleryBulletType"
            sprite: remodeled-industry-tsarmissile
            width: 40
            height: 40
+           despawnShake: 100
+           shootEffect: {
+            type: MultiEffect
+        lifetime: 40
+        effects: [
+         {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 88
+            lifetime: 30
+            colorFrom: 4df6ff
+            colorTo: 43326c
+            strokeFrom: 10
+            strokeTo: 0.1
+          }
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 88
+            lifetime: 60
+            colorFrom: ffa861
+            colorTo: bcafa4
+            strokeFrom: 5
+            strokeTo: 0.5
+          }
+          ]
+           }
            despawnEffect: {
         type: MultiEffect
         lifetime: 40
@@ -39,7 +67,7 @@ type: "ArtilleryBulletType"
             type: WaveEffect
             sizeFrom: 3
             sizeTo: 400
-            lifetime: 240
+            lifetime: 120
             colorFrom: 4df6ff
             colorTo: 43326c
             strokeFrom: 10
@@ -49,11 +77,11 @@ type: "ArtilleryBulletType"
             type: WaveEffect
             sizeFrom: 0
             sizeTo: 400
-            lifetime: 480
+            lifetime: 240
             colorFrom: ffa861
             colorTo: bcafa4
             strokeFrom: 5
-            strokeTo: 0
+            strokeTo: 0.5
           }
           ]
            }
