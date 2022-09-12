@@ -25,7 +25,7 @@ hitEffect: none
 despawnEffect: none
 frontColor: ffda0a
 backColor: ffda0a
-sprite: remodeledindustry-hexagone
+sprite: remodeled-industry-hexagone
 pierce: true
 pierceCap: 1000
 }
@@ -39,7 +39,7 @@ smokeEffect: none
 hitEffect: none
 frontColor: eb0aff
 backColor: eb0aff
-sprite: remodeledindustry-hexagone
+sprite: remodeled-industry-hexagone
 despawnEffect: none
 pierce: true
 pierceCap: 1000
@@ -51,7 +51,7 @@ lifetime: 600
 speed: 1
 frontColor: 0ac2ff
 backColor: 0ac2ff
-sprite: remodeledindustry-hexagone
+sprite: remodeled-industry-hexagone
 shootEffect: none
 smokeEffect: none
 hitEffect: none
