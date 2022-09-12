@@ -5,7 +5,7 @@ health: 5000
 shootCone: 1
 baseExplosiveness: 1000
 maxAmmo: 1000
-range: 600
+range: 1200
 reload: 1200
 rotateSpeed: 0.5
 canOverdrive: true
@@ -25,7 +25,7 @@ type: "ArtilleryBulletType"
            pierce: true
            pierceCap: 1000
            pierceArmor: true
-           speed: 1
+           speed: 2
            lifetime: 600
            scaledSplashDamage: true
            sprite: remodeled-industry-tsarmissile
