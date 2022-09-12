@@ -3,39 +3,12 @@ health: 4500
 armor: 3
 flying: true
 hitSize: 32
-speed: 10
+speed: 6
 rotateSpeed: 8
-accel: 3
-drag: 0.03
+accel: 6
+drag: 0.1
 circleTarget: true
 weapons: [
-  {
-    name: termination-gun
-    top: false
-    mirror: true
-    x: 8
-    heatColor: 85f0fe
-    y: 0
-    recoil: 1
-    reload: 1
-    shootX: 0
-    shootSound: laser
-    shake: 0
-    bullet: {
-        type: "PointBulletType"
-           splashDamage: 100
-           pierceArmor: true
-           splashDamageRadius: 24
-           speed: 16
-           maxRange: 200
-           range: 200
-           lifetime: 40
-           trailEffect: "railTrail"
-		       trailInterval: 12
-           hitSize: 4
-           layer: 10
-           }
-           }
            {
             name: shadow-bomb
             x: 0
@@ -49,7 +22,7 @@ weapons: [
       damage: 0
       speed: 0
       splashDamage: 750
-      splashDamageRadius: 40
+      splashDamageRadius: 80
       hittable: false
       absorbable: false
       collides: false
@@ -67,7 +40,7 @@ weapons: [
       spin: 3
       keepVelocity: false
       hitEffect: none
-      hitSound: plasmaboom
+      hitSound: beam
       despawnEffect: {
         type: MultiEffect
         lifetime: 60
@@ -75,8 +48,8 @@ weapons: [
           {
             type: WaveEffect
             sizeFrom: 0
-            sizeTo: 40
-            lifetime: 20
+            sizeTo: 80
+            lifetime: 40
             colorFrom: 4df6ff
             colorTo: 43326c
             strokeFrom: 5
