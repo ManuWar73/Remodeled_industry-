@@ -30,7 +30,7 @@ type: "ArtilleryBulletType"
            sprite: remodeled-industry-tsarmissile
            despawnEffect: {
         type: MultiEffect
-        lifetime: 
+        lifetime: 40
         effects: [
          {
             type: WaveEffect
