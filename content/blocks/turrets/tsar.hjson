@@ -31,8 +31,8 @@ type: "ArtilleryBulletType"
            despawnEffect: {
         type: MultiEffect
         lifetime: 
-        effects: [
-          {
+        effects:[
+        {
             type: WaveEffect
             sizeFrom: 3
             sizeTo: 400
