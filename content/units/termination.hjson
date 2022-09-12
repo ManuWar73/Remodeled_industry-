@@ -1,5 +1,5 @@
 type: flying
-health: 6000
+health: 4500
 armor: 3
 flying: true
 hitsize: 64
@@ -13,19 +13,19 @@ weapons: [
     name: termination-gun
     top: false
     mirror: true
-    x: 12
+    x: 8
     heatColor: 85f0fe
     y: 0
     recoil: 1
-    reload: 0.5
+    reload: 1
     shootX: 0
     shootSound: laser
     shake: 0
     bullet: {
         type: "PointBulletType"
-           splashDamage: 30
+           splashDamage: 100
            pierceArmor: true
-           splashDamageRadius: 16
+           splashDamageRadius: 24
            speed: 16
            maxRange: 200
            range: 200
@@ -33,6 +33,7 @@ weapons: [
            trailEffect: "railTrail"
 		       trailInterval: 12
            hitSize: 4
+           layer: 10
            }
            }
            ]
