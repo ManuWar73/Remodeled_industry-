@@ -1,0 +1,46 @@
+name: "Tsar"
+type: itemTurret
+size: 8
+health: 5000
+shootCone: 1
+baseExplosiveness: 1000
+maxAmmo: 200
+range: 600
+reload: 1200
+rotateSpeed: 0.5
+canOverdrive: true
+recoil: 40
+recoilTime: 600
+heatColor: 61fffc
+cooldownTime: 1800
+shootSound: none
+ammoPerShot: 100
+ammoTypes: {
+blast-compound: {
+type: "ArtilleryBulletType"
+           splashDamage: 3000
+           pierceArmor: true
+           splashDamageRadius: 400
+           damage: 250
+           pierce: true
+           pierceCap: 1000
+           pierceArmor: true
+           speed: 0.5
+           lifetime: 1200
+           sprite: remodeled-industry-tsarmissile
+           despawnEffect: {
+        type: MultiEffect
+        lifetime: 
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 3
+            sizeTo: 400
+            lifetime: 240
+            colorFrom: 4df6ff
+            colorTo: 43326c
+            strokeFrom: 10
+            strokeTo: 0.1
+          }
+          ]
+           }
