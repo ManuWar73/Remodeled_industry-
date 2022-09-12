@@ -16,13 +16,13 @@ weapons: [
     x: 8
     y: 0
     recoil: 1
-    reload: 5
+    reload: 1
     shootX: 8
     shootSound: artillery
     shake: 0
     bullet: {
         type: "PointBulletType"
-           splashDamage: 100
+           splashDamage: 20
            splashDamageRadius: 16
            speed: 16
            lifetime: 40
