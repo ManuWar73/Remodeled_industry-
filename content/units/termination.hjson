@@ -13,12 +13,12 @@ weapons: [
     name: termination-gun
     top: false
     mirror: true
-    x: 16
+    x: 12
     heatColor: 85f0fe
     y: 0
     recoil: 1
     reload: 0.5
-    shootX: 6
+    shootX: 0
     shootSound: laser
     shake: 0
     bullet: {
