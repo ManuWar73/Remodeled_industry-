@@ -3,11 +3,11 @@ health: 13500
 armor: 25
 flying: true
 hitsize: 32
-speed: 8
+speed: 2
 rotateSpeed: 8
 accel: 0.1
-drag: 0.01
-circleTarget: true
+drag: 0.1
+circleTarget: false
 weapons: [
   {
     name: termination-gun
@@ -18,13 +18,16 @@ weapons: [
     recoil: 1
     reload: 1
     shootX: 8
-    shootSound: artillery
+    shootSound: beam
     shake: 0
     bullet: {
         type: "PointBulletType"
-           splashDamage: 20
+           splashDamage: 15
+           pierceArmor: true
            splashDamageRadius: 16
            speed: 16
+           maxRange: 200
+           range: 200
            lifetime: 40
            trailEffect: "railTrail"
 		       trailInterval: 12
