@@ -37,7 +37,22 @@ HitEffect: {
           }
           ]
            }
-despawnEffect: none
+despawnEffect: {
+        type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 40
+            lifetime: 60
+            colorFrom: ffffff
+            colorTo: 000000
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          ]
+           }
 pierce: true
 pierceCap: 3
 }
@@ -64,7 +79,22 @@ HitEffect: {
           }
           ]
            }
-despawnEffect: none
+despawnEffect: {
+        type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 40
+            lifetime: 60
+            colorFrom: ffffff
+            colorTo: 000000
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          ]
+           }
 pierce: true
 pierceCap: 3
 }
@@ -91,7 +121,22 @@ HitEffect: {
           }
           ]
            }
-despawnEffect: none
+despawnEffect: {
+        type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 40
+            lifetime: 60
+            colorFrom: ffffff
+            colorTo: 000000
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          ]
+           }
 pierce: true
 pierceCap: 3
 }
