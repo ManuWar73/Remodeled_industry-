@@ -5,6 +5,8 @@ flying: true
 hitSize: 32
 speed: 6
 rotateSpeed: 8
+engineOffset: 44
+engineSize: 8
 accel: 0.3
 drag: 0.1
 circleTarget: true
