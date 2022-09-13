@@ -5,7 +5,7 @@ flying: true
 hitSize: 32
 speed: 6
 rotateSpeed: 8
-engineOffset: 44
+engineOffset: 16
 engineSize: 8
 accel: 0.3
 drag: 0.1
@@ -15,7 +15,7 @@ weapons: [
           name: shadow-minigun
           top: false
     mirror: true
-    x: 3
+    x: 10
     heatColor: 85f0fe
     y: 0
     recoil: 1
