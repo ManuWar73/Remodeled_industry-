@@ -49,6 +49,7 @@ shootType: {
             strokeFrom: 3
             strokeTo: 2
           }
+          ]
           }
 shootShake: 50
            }
