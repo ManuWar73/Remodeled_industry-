@@ -39,10 +39,11 @@ HitEffect: {
            shoot: {
             shots: 2
             shotDelay: 1
-            barrels: [
--4, 5, 0
- 4, 5, 0
+            barrels: 2[
+-16, 5, 0
+ 16, 5, 0
             ]
+            barrelOffset: 1
            }
 }
 }
