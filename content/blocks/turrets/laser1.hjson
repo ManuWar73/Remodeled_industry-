@@ -11,6 +11,7 @@ recoilTime: 80
 shootSound: none
 cooldownTime: 130
 minWarmup: 300
+shootWarmupSpeed: 1
 reload: 0.01
 warmupMantain: 120
 consumes: {
