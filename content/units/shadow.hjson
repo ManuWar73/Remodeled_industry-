@@ -14,6 +14,7 @@ weapons: [
         {
           name: shadow-minigun
           top: false
+          rotate: true
     mirror: true
     x: 10
     heatColor: 85f0fe
@@ -46,6 +47,7 @@ weapons: [
     shootX: 0
     shootSound: laser
     shake: 0
+    rotate: true
     bullet: {
         type: "MissileBulletType"
            splashDamage: 500
