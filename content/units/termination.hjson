@@ -10,15 +10,15 @@ drag: 0.1
 engines: [
   {
     x: 0
-    y:-4
+    y:-8
   }
   {
     x: 2
-    y: -5
+    y: -10
   }
   {
     x: -2
-    y: -5
+    y: -10
   }
 ]
 circleTarget: false
