@@ -43,12 +43,12 @@ HitEffect: {
 x: 4
 y: 10
 rotation: 0
-            ]
-                        barrels: 2[
+]
+barrels: 2[
 x: -4
 y: 10
 rotation: 0
-            ]
+]
             barrelOffset: 1
            }
 }
