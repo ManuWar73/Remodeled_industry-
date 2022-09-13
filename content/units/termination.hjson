@@ -10,17 +10,18 @@ drag: 0.1
 engines: [
   {
     x: 0
-    y: -16
+    y: -32
   }
   {
     x: 2
-    y: -15
+    y: -32
   }
   {
     x: -2
-    y: -15
+    y: -32
   }
 ]
+engineSize: 4
 circleTarget: false
 
 weapons: [
