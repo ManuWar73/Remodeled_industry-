@@ -4,7 +4,7 @@ size: 5
 health: 3000
 shootCone: 180
 range: 360
-rotateSpeed: 3
+rotateSpeed: 1
 canOverdrive: true
 recoil: 10
 recoilTime: 80
@@ -14,6 +14,8 @@ minWarmup: 300
 shootWarmupSpeed: 1
 reload: 0.01
 warmupMantain: 120
+linearWarmup: true
+accuratDelay: true
 consumes: {
     power: 200
     }
