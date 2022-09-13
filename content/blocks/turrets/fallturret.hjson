@@ -6,6 +6,8 @@ shootCone: 5
 baseExplosiveness: 100
 maxAmmo: 200
 range: 600
+heatColor: ff3633
+cooldownTime: 240
 reload: 300
 rotateSpeed: 3
 canOverdrive: true
