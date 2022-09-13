@@ -1,9 +1,9 @@
 type: flying
-health: 4500
+health: 15000
 armor: 3
 flying: true
 hitSize: 32
-speed: 6
+speed: 8
 rotateSpeed: 8
 engineOffset: 12
 engineSize: 8

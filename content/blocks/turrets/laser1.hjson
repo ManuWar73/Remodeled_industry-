@@ -9,7 +9,10 @@ canOverdrive: true
 recoil: 10
 recoilTime: 80
 shootSound: none
+cooldownTime: 130
+minWarmup: 300
 reload: 0.01
+warmupMantain: 120
 consumes: {
     power: 200
     }
@@ -21,8 +24,32 @@ shootType: {
            lightRadius: 40
            lightColor: FF0000
            hitSize: 40
-           chargeTime: 300
            pierceCap: 100
+           chargeEffect: {
+           type: MultiEffect
+        lifetime: 40
+        effects: [
+         {
+            type: WaveEffect
+            sizeFrom: 80
+            sizeTo: 0
+            lifetime: 300
+            colorFrom: ff3333
+            colorTo: 33ffdd
+            strokeFrom: 10
+            strokeTo: 3
+          }
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 80
+            lifetime: 30
+            colorFrom: 33ffdd
+            colorTo: ff3333
+            strokeFrom: 3
+            strokeTo: 2
+          }
+          }
 shootShake: 50
            }
 requirements: [
