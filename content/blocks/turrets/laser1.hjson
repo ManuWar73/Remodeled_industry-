@@ -10,12 +10,11 @@ recoil: 10
 recoilTime: 80
 shootSound: none
 cooldownTime: 130
-minWarmup: 300
-shootWarmupSpeed: 1
+shootWarmupSpeed: 300
 reload: 0.01
 warmupMantain: 120
-linearWarmup: true
-accuratDelay: true
+linearWarmup: false
+accurateDelay: true
 consumes: {
     power: 200
     }
