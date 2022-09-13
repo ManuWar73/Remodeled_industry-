@@ -1,28 +1,13 @@
 type: flying
-health: 4500
+health: 6000
 armor: 3
 flying: true
 hitSize: 32
-speed: 4
+speed: 5
 rotateSpeed: 8
 accel: 0.1
 drag: 0.1
-engines: [
-  {
-    x: 0
-    y: -32
-  }
-  {
-    x: 2
-    y: -32
-  }
-  {
-    x: -2
-    y: -32
-  }
-]
-engineSize: 4
-circleTarget: false
+circleTarget: true
 
 weapons: [
   {
