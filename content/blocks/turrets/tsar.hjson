@@ -19,7 +19,7 @@ shake: 20
 ammoTypes: {
 blast-compound: {
 type: "ArtilleryBulletType"
-           splashDamage: 5000
+           splashDamage: 15000
            pierceArmor: true
            splashDamageRadius: 400
            damage: 250
