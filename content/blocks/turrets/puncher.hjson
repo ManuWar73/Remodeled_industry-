@@ -1,12 +1,12 @@
 name: puncher
 type: itemTurret
-size: 1
+size: 6
 health: 1000
 shootCone: 5
 baseExplosiveness: 10
 maxAmmo: 200
 range: 600
-reload: 5.0
+reload: 2
 rotateSpeed: 30
 canOverdrive: true
 recoil: 2
@@ -36,7 +36,14 @@ HitEffect: {
           }
           ]
            }
-despawnEffect: none
+           shoot: {
+            shots: 2
+            shotDelay: 1
+            barrels: [
+-4, 5, 0
+ 4, 5, 0
+            ]
+           }
 }
 }
 requirements: [
