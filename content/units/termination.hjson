@@ -7,6 +7,20 @@ speed: 4
 rotateSpeed: 8
 accel: 0.1
 drag: 0.1
+engines: [
+  {
+    x: 0
+    y:-4
+  }
+  {
+    x: 2
+    y: -5
+  }
+  {
+    x: -2
+    y: -5
+  }
+]
 circleTarget: false
 
 weapons: [
