@@ -5,7 +5,7 @@ flying: true
 hitSize: 32
 speed: 6
 rotateSpeed: 8
-engineOffset: 16
+engineOffset: 12
 engineSize: 8
 accel: 0.3
 drag: 0.1
@@ -16,7 +16,7 @@ weapons: [
           top: false
           rotate: true
     mirror: true
-    x: 10
+    x: 13
     heatColor: 85f0fe
     y: 0
     recoil: 1
@@ -39,7 +39,7 @@ weapons: [
           name: shadow-artillery
           top: false
     mirror: true
-    x: 5
+    x: 4
     heatColor: 85f0fe
     y: 0
     recoil: 1
@@ -94,8 +94,9 @@ weapons: [
                 {
           name: shadow-laser
           top: false
-    mirror: false
-    x: 0
+    mirror: true
+    rotate: true
+    x: 15
     heatColor: 85f0fe
     y: 0
     recoil: 1
