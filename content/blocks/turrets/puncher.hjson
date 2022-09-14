@@ -1,7 +1,7 @@
 name: puncher
 type: itemTurret
 size: 6
-health: 1000
+health: 10000
 shootCone: 5
 baseExplosiveness: 10
 maxAmmo: 200
