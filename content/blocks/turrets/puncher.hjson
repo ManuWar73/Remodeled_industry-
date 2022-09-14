@@ -15,7 +15,7 @@ ammoPerShot: 0.1
 "shoot": {
         "type": "ShootAlternate",
         "barrels": 2,
-        "spread": 4.8
+        "spread": 10
     },
 ammoTypes: {
 surge-alloy: {
