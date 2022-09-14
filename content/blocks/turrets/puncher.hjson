@@ -11,7 +11,14 @@ rotateSpeed: 30
 canOverdrive: true
 recoil: 2
 shootSound: none
-ammoPerShot: 2
+ammoPerShot: 0.1
+shoot: {
+            shots: 2
+            shotDelay: 1
+barrels: 1 {-4, 10, 0}
+barrels: 2 {4, 10, 0}
+            barrelOffset: 1
+           }
 ammoTypes: {
 surge-alloy: {
 type: "BasicBulletType"
@@ -35,13 +42,6 @@ HitEffect: {
             strokeTo: 0
           }
           ]
-           }
-           shoot: {
-            shots: 2
-            shotDelay: 1
-barrels: 1 {-4, 10, 0}
-barrels: 2 {4, 10, 0}
-            barrelOffset: 1
            }
 }
 }
