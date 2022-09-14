@@ -13,7 +13,10 @@ recoil: 2
 shootSound: none
 ammoPerShot: 0.1
 shoot: {
-copy: spectre
+  shots: 2
+  shotDelay: 1
+shoot: (1, -4, 0, 0, 0)
+shoot: (1, 4, 0, 0, 1)
            }
 ammoTypes: {
 surge-alloy: {
