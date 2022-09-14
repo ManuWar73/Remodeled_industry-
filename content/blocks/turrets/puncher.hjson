@@ -12,12 +12,9 @@ canOverdrive: true
 recoil: 2
 shootSound: none
 ammoPerShot: 0.1
-shoot: {
-  shots: 2
-  shotDelay: 1
-shoot: (1, -4, 0, 0, 0)
-shoot: (1, 4, 0, 0, 1)
-           }
+shots: 2
+alternate: true
+spread: 9
 ammoTypes: {
 surge-alloy: {
 type: "BasicBulletType"
