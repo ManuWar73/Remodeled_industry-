@@ -20,9 +20,9 @@ ammoPerShot: 0.1
 ammoTypes: {
 surge-alloy: {
 type: "BasicBulletType"
-damage: 300
-lifetime: 60
-speed: 10
+damage: 200
+lifetime: 120
+speed: 5
 shootEffect: none
 smokeEffect: none
 HitEffect: {
