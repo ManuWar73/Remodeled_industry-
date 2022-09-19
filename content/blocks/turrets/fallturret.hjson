@@ -118,7 +118,7 @@ pierceCap: 1000
 }
 thorium: {
 type: BasicBulletType
-damage: 1000000
+damage: 100000
 lifetime: 300
 speed: 2
 shootEffect: none
@@ -218,7 +218,7 @@ pierceCap: 1000
 }
 titanium: {
 type: "BasicBulletType"
-damage: 5000000
+damage: 100000
 lifetime: 600
 speed: 1
 frontColor: 0ac2ff
