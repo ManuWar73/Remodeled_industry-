@@ -13,7 +13,9 @@ cooldownTime: 130
 shootWarmupSpeed: 300
 reload: 0.01
 warmupMantain: 120
-linearWarmup: true
+shoot: {
+  firstShotDelay: 300
+}
 accurateDelay: true
 consumes: {
     power: 200
