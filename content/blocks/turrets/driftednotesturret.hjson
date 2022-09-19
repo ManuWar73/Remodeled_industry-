@@ -5,7 +5,7 @@ health: 1000
 shootCone: 5
 baseExplosiveness: 500
 maxAmmo: 100
-range: 450
+range: 300
 reload: 0.01
 rotateSpeed: 3
 canOverdrive: true
@@ -21,7 +21,7 @@ drifted-note: {
 type: ContinuousLaserBulletType
 damage: 450
 shootLength: 30
-speed: 20
+speed: 0
 shootEffect: none
 smokeEffect: none
 hitEffect: none
