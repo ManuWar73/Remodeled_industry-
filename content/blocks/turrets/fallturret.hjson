@@ -14,7 +14,7 @@ canOverdrive: true
 recoil: 10
 recoilTime: 80
 shootSound: none
-ammoPerShot: 50
+ammoPerShot: 200
 ammoTypes: {
 surge-alloy: {
 type: BasicBulletType
@@ -22,6 +22,7 @@ height: 40
 width: 32
 damage: 100000
 lifetime: 200
+ammoMultiplier: 4
 speed: 3
 shootEffect: none
 smokeEffect: none
@@ -119,6 +120,7 @@ pierceCap: 1000
 thorium: {
 type: BasicBulletType
 damage: 100000
+ammoMultiplier: 4
 lifetime: 300
 speed: 2
 shootEffect: none
