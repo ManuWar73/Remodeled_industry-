@@ -1,6 +1,6 @@
 name: "ERADICATOR"
 type: itemTurret
-size: 2
+size: 7
 health: 1500
 shootCone: 5
 baseExplosiveness: 100
@@ -52,6 +52,8 @@ pierceCap: 3
                                                                              "homingDelay": 10,
                                                                              "homingPower": 10000,
                                                                              "homingRange": 750,
+                                                                             pierce: true
+                                                                             pierceCap: 100
                     }
                     }
                  }

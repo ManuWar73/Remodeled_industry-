@@ -6,7 +6,7 @@ shootCone: 5
 baseExplosiveness: 0
 maxAmmo: 200
 range: 600
-reload: 4
+reload: 2
 rotateSpeed: 30
 canOverdrive: true
 recoil: 2
