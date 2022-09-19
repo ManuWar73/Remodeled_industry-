@@ -68,11 +68,14 @@ fragBullet: {
     type: BasicBulletType
 height: 20
 width: 16
-damage: 5000
+damage: 10000
 lifetime: 20
 speed: 6
 shootEffect: none
 smokeEffect: none
+homingPower: 50
+homingRange: 80
+homingDelay: 0
 HitEffect: {
         type: MultiEffect
         lifetime: 60
@@ -163,7 +166,10 @@ pierceCap: 1000
 fragBullets: 15
 fragBullet: {
 type: BasicBulletType
-damage: 5000
+homingPower: 50
+homingRange: 80
+homingDelay: 0
+damage: 10000
 lifetime: 30
 speed: 4
 shootEffect: none
@@ -212,7 +218,7 @@ pierceCap: 1000
 }
 titanium: {
 type: "BasicBulletType"
-damage: 10000000
+damage: 5000000
 lifetime: 600
 speed: 1
 frontColor: 0ac2ff
@@ -260,7 +266,7 @@ pierceCap: 1000
 fragBullets: 20
 fragBullet: {
     type: "BasicBulletType"
-damage: 5000
+damage: 10000
 lifetime: 60
 speed: 2
 frontColor: 0ac2ff
@@ -271,6 +277,9 @@ spin: 2
 sprite: remodeled-industry-hexagone
 shootEffect: none
 smokeEffect: none
+homingPower: 50
+homingRange: 80
+homingDelay: 0
 HitEffect: {
         type: MultiEffect
         lifetime: 60

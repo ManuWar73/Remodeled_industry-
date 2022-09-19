@@ -12,7 +12,7 @@ canOverdrive: true
 inaccuracy: 90
 recoil: 1
 shootSound: none
-ammoPerShot: 1
+ammoPerShot: 3
 ammoTypes: {
 titanium: {
 type: MissileBulletType
@@ -37,15 +37,15 @@ length: 30
                                                    "lifetime": 60,
                                                    "speed": 0,
                                                    "damage": 300,
-                                                    "fragBullets": 1,
+                                                    "fragBullets": 3,
                                                     "fragBullet": {
                                                     "type": "MissileBulletType",
                                                     "frontColor": "f5e000",
                                                     "backColor": "000505",
                                                     length: 30
-                                                                                                       "lifetime": 60,
-                                                                                                       "speed": 8,
-                                                                                                       "damage": 300,
+                                                                                                       "lifetime": 30,
+                                                                                                       "speed": 16,
+                                                                                                       "damage": 500,
                                                                                                        homingPower: 1000
                                                                                                        homingRange: 480
                                                                                                        homingDelay:0
