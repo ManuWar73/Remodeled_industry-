@@ -5,16 +5,16 @@ health: 1000
 shootCone: 5
 baseExplosiveness: 500
 maxAmmo: 100
-range: 300
+range: 450
 reload: 0.01
-rotateSpeed: 12
+rotateSpeed: 3
 canOverdrive: true
 scaledHealth: 60
 recoil: 1
 shootSound: laser
 ammoPerShot: 1
 shoot: {
-shoots: 2
+shots: 2
 }
 ammoTypes: {
 drifted-note: {
