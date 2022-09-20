@@ -1,5 +1,5 @@
 type: flying
-health: 15000
+health: 8000
 armor: 3
 flying: true
 hitSize: 32
