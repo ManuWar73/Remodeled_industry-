@@ -26,7 +26,7 @@ type: "ArtilleryBulletType"
            pierceArmor: true
            speed: 1
            lifetime: 600
-           scaledSplashDamage: false
+           scaledSplashDamage: true
            sprite: remodeled-industry-tsarmissile
            width: 40
            height: 40
