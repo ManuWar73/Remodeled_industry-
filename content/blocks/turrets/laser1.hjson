@@ -10,8 +10,7 @@ recoil: 10
 recoilTime: 80
 shootSound: none
 cooldownTime: 130
-shootWarmupSpeed: 300
-reload: 1
+reload: 0.5
 warmupMantain: 120
 accurateDelay: true
 consumes: {
