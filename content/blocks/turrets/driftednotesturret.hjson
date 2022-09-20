@@ -6,8 +6,8 @@ shootCone: 5
 baseExplosiveness: 500
 maxAmmo: 100
 range: 300
-reload: 0.01
-rotateSpeed: 3
+reload: 1
+rotateSpeed: 1
 canOverdrive: true
 scaledHealth: 60
 recoil: 1
@@ -19,7 +19,7 @@ shots: 2
 ammoTypes: {
 drifted-note: {
 type: ContinuousLaserBulletType
-damage: 450
+damage: 5000
 shootLength: 30
 speed: 0
 shootEffect: none

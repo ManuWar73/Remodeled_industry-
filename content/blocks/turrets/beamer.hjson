@@ -8,14 +8,19 @@ rotateSpeed: 3
 canOverdrive: true
 recoil: 10
 recoilTime: 80
-reload: 300
-shootSound: none
+reload: 120
+shoot:{
+  shots: 3
+shootDelay: 10
+firstShotDelay: 60
+}
+shootSound: laser
 consumes: {
-    power: 2000
+    power: 60
     }
 shootType: {
            type: LaserBulletType
-           damage: 15000
+           damage: 75
            width: 40
            length: 160
            hitSize: 40

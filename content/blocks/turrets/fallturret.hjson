@@ -26,7 +26,7 @@ ammoMultiplier: 4
 speed: 3
 shootEffect: none
 smokeEffect: none
-HitEffect: {
+hitEffect: {
         type: MultiEffect
         lifetime: 60
         effects: [
@@ -77,7 +77,7 @@ smokeEffect: none
 homingPower: 50
 homingRange: 80
 homingDelay: 0
-HitEffect: {
+hitEffect: {
         type: MultiEffect
         lifetime: 60
         effects: [
@@ -176,7 +176,7 @@ lifetime: 30
 speed: 4
 shootEffect: none
 smokeEffect: none
-HitEffect: {
+hitEffect: {
         type: MultiEffect
         lifetime: 60
         effects: [
@@ -231,7 +231,7 @@ spin: 1
 sprite: remodeled-industry-hexagone
 shootEffect: none
 smokeEffect: none
-HitEffect: {
+hitEffect: {
         type: MultiEffect
         lifetime: 60
         effects: [
@@ -282,7 +282,7 @@ smokeEffect: none
 homingPower: 50
 homingRange: 80
 homingDelay: 0
-HitEffect: {
+hitEffect: {
         type: MultiEffect
         lifetime: 60
         effects: [

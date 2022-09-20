@@ -2,7 +2,7 @@ type: ConsumeGenerator
 itemDuration: 60
 size: 3
 hasLiquids: true
-powerProduction: 366
+powerProduction: 499.8
 consumes: {
   items: {
     items: [

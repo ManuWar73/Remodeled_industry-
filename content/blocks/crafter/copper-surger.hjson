@@ -47,7 +47,7 @@ consumes: {
   power: 166.6
   items: {
     items: [
-      copper/1
+      copper/5
     ]
   }
 }

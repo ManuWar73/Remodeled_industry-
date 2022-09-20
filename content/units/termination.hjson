@@ -3,8 +3,8 @@ health: 6000
 armor: 3
 flying: true
 hitSize: 32
-speed: 5
-rotateSpeed: 8
+speed: 3.75
+rotateSpeed: 1
 accel: 0.1
 drag: 0.1
 circleTarget: true
@@ -18,13 +18,13 @@ weapons: [
     heatColor: 85f0fe
     y: 0
     recoil: 1
-    reload: 1
+    reload: 2
     shootX: 0
     shootSound: laser
     shake: 0
     bullet: {
         type: "PointBulletType"
-           splashDamage: 100
+           splashDamage: 50
            pierceArmor: true
            splashDamageRadius: 24
            speed: 16

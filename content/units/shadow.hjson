@@ -3,7 +3,7 @@ health: 15000
 armor: 3
 flying: true
 hitSize: 32
-speed: 8
+speed: 6
 rotateSpeed: 8
 engineOffset: 12
 engineSize: 8
@@ -20,9 +20,9 @@ weapons: [
     heatColor: 85f0fe
     y: 0
     recoil: 1
-    reload: 2.5
+    reload: 5
     shootX: 0
-    shootSound: laser
+    shootSound: none
     shake: 0
     bullet: {
         type: "BasicBulletType"
@@ -45,7 +45,7 @@ weapons: [
     recoil: 1
     reload: 30
     shootX: 0
-    shootSound: laser
+    shootSound: none
     shake: 0
     rotate: true
     bullet: {
