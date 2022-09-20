@@ -11,7 +11,7 @@ recoilTime: 80
 reload: 120
 shoot:{
   shots: 3
-shootDelay: 10
+shotDelay: 10
 firstShotDelay: 60
 }
 shootSound: laser
