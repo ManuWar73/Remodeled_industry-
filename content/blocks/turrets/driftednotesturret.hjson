@@ -11,7 +11,7 @@ rotateSpeed: 1
 canOverdrive: true
 scaledHealth: 60
 recoil: 1
-shootSound: laser
+shootSound: none
 ammoPerShot: 1
 shoot: {
 shots: 2

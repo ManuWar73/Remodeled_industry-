@@ -10,8 +10,8 @@ reload: 10
 rotateSpeed: 3
 shoot:{
   shots: 5
-shootDelay: 4
-firstShotDelay: 60
+shotDelay: 20
+firstShotDelay: 120
 }
 canOverdrive: true
 recoil: 10

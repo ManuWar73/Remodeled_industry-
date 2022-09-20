@@ -50,7 +50,7 @@ weapons: [
     rotate: true
     bullet: {
         type: "MissileBulletType"
-           splashDamage: 500
+           splashDamage: 250
            pierceArmor: true
            splashDamageRadius: 80
            range: 200
@@ -106,7 +106,7 @@ weapons: [
     shake: 0
     bullet: {
         type: "LaserBulletType"
-           damage: 1000
+           damage: 500
            pierceArmor: true
            range: 200
            speed: 12
