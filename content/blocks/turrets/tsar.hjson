@@ -5,30 +5,28 @@ health: 5000
 shootCone: 1
 baseExplosiveness: 1000
 maxAmmo: 1000
-range: 1200
-reload: 1200
-rotateSpeed: 0.5
+range: 600
+reload: 2400
+rotateSpeed: 0.3
 canOverdrive: true
 recoil: 40
-recoilTime: 600
+recoilTime: 1600
 heatColor: ffa861
-cooldownTime: 1100
+cooldownTime: 2200
 shootSound: none
-ammoPerShot: 250
+ammoPerShot: 400
+displayAmmoMultiplier: true
+ammoMultiplier: 1
 shake: 20
 ammoTypes: {
 blast-compound: {
 type: "ArtilleryBulletType"
-           splashDamage: 15000
-           pierceArmor: true
-           splashDamageRadius: 400
-           damage: 250
-           pierce: true
+           splashDamage: 5000
            pierceCap: 1000
            pierceArmor: true
-           speed: 2
+           speed: 1
            lifetime: 600
-           scaledSplashDamage: true
+           scaledSplashDamage: false
            sprite: remodeled-industry-tsarmissile
            width: 40
            height: 40
@@ -66,8 +64,8 @@ type: "ArtilleryBulletType"
          {
             type: WaveEffect
             sizeFrom: 3
-            sizeTo: 400
-            lifetime: 120
+            sizeTo: 200
+            lifetime: 60
             colorFrom: 4df6ff
             colorTo: 43326c
             strokeFrom: 10
@@ -76,8 +74,8 @@ type: "ArtilleryBulletType"
           {
             type: WaveEffect
             sizeFrom: 0
-            sizeTo: 400
-            lifetime: 240
+            sizeTo: 200
+            lifetime: 60
             colorFrom: ffa861
             colorTo: bcafa4
             strokeFrom: 5
@@ -93,4 +91,8 @@ type: "ArtilleryBulletType"
   thorium/3000
   titanium/5000
 
-]
+]       pierceArmor: true
+           splashDamageRadius: 400
+           damage: 250
+           pierce: true
+    
