@@ -12,7 +12,7 @@ laserColor: ff4747
 consumes: {
     power: 60
     }
-force: -3
+force: 5
 damage: 1
 targetGround: true
 shootLenght: 80
