@@ -11,24 +11,40 @@ recoilTime: 80
 reload: 120
 shoot:{
     type: ShootSpread
-  shots: 5
-spread: 22.5
+  shots: 10
+spread: 11.25
+firstShotDelay: 30
 }
 shootSound: laser
 consumes: {
-    power: 80
+    power: 100
     }
 shootType: {
            type: LaserBulletType
-           damage: 120
+           damage: 80
            width: 40
            length: 160
            hitSize: 40
            shootShake: 20
-           chargeTime: 120
+           chargeEffect: {
+            type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 64
+            sizeTo: 0
+            lifetime: 30
+            colorFrom: 7eed5a
+            colorTo: 7eed5a
+            strokeFrom: 5
+            strokeTo: 0.5
+          }
+          ]
+           }]
            pierceCap: 100
            pierce: true
-           colors: [7382f040, 7382f0, ffffff]
+           colors: [7eed5a, 5aede3, ffffff]
            }
 requirements: [
   titanium/2000
