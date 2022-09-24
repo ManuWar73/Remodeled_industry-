@@ -27,6 +27,7 @@ type: "ArtilleryBulletType"
            splashDamageRadius: 200
            damage: 250
            pierce: true
+           ammoMultiplier: 1
            pierceArmor: true
            speed: 1
            lifetime: 600
@@ -34,7 +35,7 @@ type: "ArtilleryBulletType"
            sprite: remodeled-industry-tsarmissile
            width: 40
            height: 40
-           despawnShake: 240
+           despawnShake: 120
            shootEffect: {
             type: MultiEffect
         lifetime: 40
