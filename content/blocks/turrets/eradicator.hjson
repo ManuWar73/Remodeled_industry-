@@ -23,8 +23,8 @@ drawer: {
         type: RegionPart
          mirror: true
          x: 8
-         y: 2
-         suffix: "-railmove"
+         y: 4
+         suffix: -railmove
          progress: warmup
          moveX: 16
               }
