@@ -30,7 +30,6 @@ drawer: {
      }
      ]
      }
-}
 ammoTypes: {
 surged-copper: {
                  "type": "ArtilleryBulletType",
