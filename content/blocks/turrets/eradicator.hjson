@@ -26,7 +26,7 @@ drawer: {
          y: 4
         suffix: -rail
         drawRegion: true
-         progress: warmup
+         progress: charge
          moveX: 16
               }
      ]
