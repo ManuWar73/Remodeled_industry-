@@ -3,19 +3,19 @@ type: TractorBeamTurret
 size: 2
 health: 1500
 shootCone: 180
-range: 80
+range: 160
 rotateSpeed: 0.5
 canOverdrive: true
-shootSound: laser
+shootSound: none
 playerControllable: true
 laserColor: ff4747
 consumes: {
     power: 60
     }
-force: 5
-damage: 1
+force: 10
+damage: 2
 targetGround: true
-shootLenght: 80
+shootLenght: 180
 requirements: [
   titanium/2000
 
