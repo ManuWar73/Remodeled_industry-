@@ -19,15 +19,15 @@ ammoPerShot: 1
 drawer: {
   type: drawTurret
   parts: [
-         {
-        type: HaloPart
-         suffix: "-railmove"
+ {
+        type: RegionPart
          mirror: true
          x: 8
-         y: 0
-         moveX: 16
+         y: 2
+         suffix: -railmove
          progress: warmup
-     }
+         moveX: 16
+              }
      ]
      }
 ammoTypes: {
