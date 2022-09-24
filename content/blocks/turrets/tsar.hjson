@@ -24,6 +24,10 @@ type: "ArtilleryBulletType"
            splashDamage: 5000
            pierceCap: 1000
            pierceArmor: true
+           splashDamageRadius: 200
+           damage: 250
+           pierce: true
+           pierceArmor: true
            speed: 1
            lifetime: 600
            scaledSplashDamage: true
@@ -91,8 +95,5 @@ type: "ArtilleryBulletType"
   thorium/3000
   titanium/5000
 
-]       pierceArmor: true
-           splashDamageRadius: 400
-           damage: 250
-           pierce: true
+]       
     
