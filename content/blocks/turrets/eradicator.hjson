@@ -24,7 +24,7 @@ drawer: {
          mirror: true
          x: 8
          y: 2
-         suffix: -railmove
+         suffix: "-railmove"
          progress: warmup
          moveX: 16
               }
