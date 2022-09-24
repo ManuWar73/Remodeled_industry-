@@ -28,9 +28,20 @@ drawer: {
         drawRegion: true
          progress: warmup
          blending: additive
-         layer: 1
+         layer: 100
          moveX: 16
               }
+               { 
+          "type": "RegionPart",
+          "suffix": "-rail",
+          "moveX": 16,
+          "mirror": true,
+          "progress": {
+           "type": "reload",
+          "op": "delay",
+          "amount": 0.85
+          }
+          },
      ]
      }
 ammoTypes: {
