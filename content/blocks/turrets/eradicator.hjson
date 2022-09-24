@@ -26,7 +26,7 @@ drawer: {
          y: 4
         suffix: -rail
         drawRegion: true
-        blending: none
+        blending: disabled
          progress: warmup
          layer: 100
          moveX: 16
