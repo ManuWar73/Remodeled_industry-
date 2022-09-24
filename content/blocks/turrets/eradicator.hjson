@@ -24,24 +24,12 @@ drawer: {
          mirror: true
          x: 8
          y: 4
-        name: eradicator-rail
+        suffix: -rail
         drawRegion: true
          progress: warmup
-         blending: additive
          layer: 100
          moveX: 16
               }
-               { 
-          "type": "RegionPart",
-          "name": "eradicator-rail",
-          "moveX": 16,
-          "mirror": true,
-          "progress": {
-           "type": "reload",
-          "op": "delay",
-          "amount": 0.85
-          }
-          },
      ]
      }
 ammoTypes: {
