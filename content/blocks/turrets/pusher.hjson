@@ -1,0 +1,23 @@
+name: "Beamer"
+type: PowerTurret
+size: 2
+health: 1500
+shootCone: 180
+range: 80
+rotateSpeed: 0.5
+canOverdrive: true
+shootSound: laser
+playerControllable: true
+laserColor: ff4747
+consumes: {
+    power: 60
+    }
+force: -3
+damage: 1
+targetGround: true
+shootLenght: 80
+requirements: [
+  titanium/2000
+
+]
+category: turret
