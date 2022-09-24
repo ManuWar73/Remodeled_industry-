@@ -1,5 +1,5 @@
 name: "Pusher"
-type: PowerTurret
+type: TractorBeamTurret
 size: 2
 health: 1500
 shootCone: 180
