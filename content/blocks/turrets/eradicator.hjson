@@ -11,8 +11,26 @@ rotateSpeed: 3
 canOverdrive: true
 recoil: 10
 recoilTime: 80
+shoot: {
+  firstShotDelay: 60
+}
 shootSound: none
 ammoPerShot: 1
+drawer: {
+  type: drawTurret
+  parts: [
+         {
+        type: HaloPart
+         suffix: "-railmove"
+         mirror: true
+         x: 8
+         y: 0
+         moveX: 16
+         progress: warmup
+     }
+     ]
+     }
+}
 ammoTypes: {
 surged-copper: {
                  "type": "ArtilleryBulletType",
