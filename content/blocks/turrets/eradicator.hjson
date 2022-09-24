@@ -34,6 +34,7 @@ width: 80
                          "damage": 300,
                           "fragBullets": 10,
                           fragSpread: 36
+                          fragOnHit: false
 pierce: true
 pierceCap: 5
                           "fragBullet": {
@@ -41,6 +42,7 @@ pierceCap: 5
                                                    "lifetime": 60,
                                                    "speed": 5,
                                                    "damage": 300,
+                                                   fragOnHit: false
 pierce: true
 pierceCap: 5
                                                     "fragBullets": 10,
