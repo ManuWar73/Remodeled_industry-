@@ -8,7 +8,8 @@ lightningDamage: 200
 armor: 5
 category: defense
 requirements: [
-    titanium: 20
+titanium: 20
 surged-copper: 20
 phase-fabric: 10
+
 ]
