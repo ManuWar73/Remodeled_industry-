@@ -20,7 +20,7 @@ drawer: {
         suffix: -wing
         drawRegion: true
          progress: warmup
-         moveX: 5
+         moveX: 7
          moveY: -6
               }
      ]
