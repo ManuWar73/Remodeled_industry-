@@ -41,7 +41,7 @@ shootType: {
             strokeTo: 0.5
           }
           ]
-           }]
+           }
            pierceCap: 100
            pierce: true
            colors: [7eed5a, 5aede3, ffffff]
