@@ -3,7 +3,7 @@ size: 2
 name: "Armored door"
 scaledHealth: 400
 chanceDeflect: 100
-lightningChance: 1
+lightningChance: 0.95
 lightningLenght: 32
 lightningDamage: 200
 armor: 5
