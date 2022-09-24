@@ -21,7 +21,7 @@ consumes: {
     }
 shootType: {
            type: LaserBulletType
-           damage: 80
+           damage: 60
            width: 40
            length: 160
            hitSize: 40
