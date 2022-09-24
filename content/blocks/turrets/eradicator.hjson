@@ -33,7 +33,7 @@ drawer: {
               }
                { 
           "type": "RegionPart",
-          "suffix": "-rail",
+          "name": "eradicator-rail",
           "moveX": 16,
           "mirror": true,
           "progress": {
