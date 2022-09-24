@@ -12,26 +12,16 @@ reload: 45
 drawer: {
   type: drawTurret
   parts: [
- {
-        type: RegionPart
-         mirror: true
-         x: 10
-         y: 4
-        suffix: -wing
-        drawRegion: true
-         progress: warmup
-         moveX: 1
-              }
                {
         type: RegionPart
          mirror: true
-         x: 8
-         y: -3
+         x: 12
+         y: -6
         suffix: -wing
         drawRegion: true
          progress: warmup
          moveX: 5
-         moveY: 3
+         moveY: 4
               }
      ]
      }
