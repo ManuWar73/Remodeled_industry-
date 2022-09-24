@@ -2,8 +2,9 @@ type: door
 size: 2
 name: "Armored door"
 scaledHealth: 400
-chanceDeflect: 75
-lightningChance: 100
+chanceDeflect: 1
+lightningChance: 1
+lightningLenght: 32
 lightningDamage: 200
 armor: 5
 category: defense
