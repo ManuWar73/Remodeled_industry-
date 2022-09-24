@@ -16,12 +16,12 @@ drawer: {
         type: RegionPart
          mirror: true
          x: 12
-         y: -6
+         y: 6
         suffix: -wing
         drawRegion: true
          progress: warmup
          moveX: 5
-         moveY: 4
+         moveY: -4
               }
      ]
      }
