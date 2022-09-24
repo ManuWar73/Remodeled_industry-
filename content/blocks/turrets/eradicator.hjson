@@ -25,6 +25,7 @@ drawer: {
          x: 8
          y: 4
         suffix: rail
+        drawRegion: true
          progress: warmup
          moveX: 16
               }
