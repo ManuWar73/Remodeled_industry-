@@ -6,13 +6,13 @@ shootCone: 5
 baseExplosiveness: 100
 maxAmmo: 200
 range: 600
-reload: 300.0
+reload: 150
 rotateSpeed: 3
 canOverdrive: true
 recoil: 10
 recoilTime: 80
 shoot: {
-  firstShotDelay: 60
+  firstShotDelay: 180
 }
 shootSound: none
 ammoPerShot: 1
@@ -26,6 +26,7 @@ drawer: {
          y: 4
         suffix: -rail
         drawRegion: true
+        blending: none
          progress: warmup
          layer: 100
          moveX: 16
