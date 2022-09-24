@@ -27,6 +27,8 @@ drawer: {
         suffix: rail
         drawRegion: true
          progress: warmup
+         blending: additive
+         layer: 1
          moveX: 16
               }
      ]
