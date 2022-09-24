@@ -1,0 +1,14 @@
+type: door
+size: 2
+name: "Armored door"
+scaledHealth: 400
+chanceDefelct: 75
+lighningChance: 100
+lightningDamage: 200
+armor: 5
+category: defense
+requirements: [
+    titanium: 20
+surged-copper: 20
+phase-fabric: 10
+]
