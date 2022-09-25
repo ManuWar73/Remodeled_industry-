@@ -61,7 +61,7 @@ ammoTypes: {
     liquid: oil
     lifetime: 70
     speed: 6
-    knockback: 16
+    knockback: 8
     puddleSize: 16
     orbSize: 6
     drag: 0.002
@@ -75,7 +75,7 @@ ammoTypes: {
     liquid: water
     lifetime: 70
     speed: 6
-    knockback: 32
+    knockback: 8
     puddleSize: 16
     orbSize: 6
     drag: 0.002
