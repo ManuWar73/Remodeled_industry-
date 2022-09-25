@@ -1,0 +1,55 @@
+type: LiquidTurret
+health: 1000
+name: flood
+rotateSpeed: 2
+targetAir: true
+targetGround: true
+size: 4
+range: 414
+reload: 1
+drawer: {
+  type: drawTurret
+  parts: [
+ {
+        type: RegionPart
+         mirror: true
+         x: 0
+         y: 0
+        suffix: -arm
+        drawRegion: true
+         progress: warmup
+         moveX: 3
+         moveY: -2
+         rotation: 3.6
+              }
+               {
+        type: RegionPart
+         mirror: true
+         x: 0
+         y: 0
+        suffix: -arm-glow
+        drawRegion: true
+         progress: warmup
+         blending: additive
+         moveX: 3
+         moveY: -2
+         rotation: 3.6
+              }
+     ]
+     }
+ammoTypes: {
+  slag: {
+    damage: 10
+    type: liquidBulletType
+    liquid: slag
+    lifetime: 70
+    speed: 6
+    knockback: 1
+    puddleSize: 16
+    orbSize: 6
+    drag: 0.002
+    ammoMultiplier: 4
+    statusDuration: 12
+    status: melting
+    }
+    }
