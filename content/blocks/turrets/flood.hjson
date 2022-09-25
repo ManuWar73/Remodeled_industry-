@@ -20,7 +20,7 @@ drawer: {
          progress: warmup
          moveX: 3
          moveY: -2
-         rotation: 3.6
+         rotation: 20
               }
                {
         type: RegionPart
@@ -33,7 +33,7 @@ drawer: {
          blending: additive
          moveX: 3
          moveY: -2
-         rotation: 3.6
+         rotation: 20
               }
      ]
      }
