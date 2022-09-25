@@ -111,3 +111,4 @@ ammoTypes: {
     statusDuration: 12
     status: infected
     }
+    }
