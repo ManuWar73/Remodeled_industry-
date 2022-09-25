@@ -42,7 +42,7 @@ drawer: {
      }
 ammoTypes: {
   slag: {
-    damage: 10
+    damage: 30
     type: liquidBulletType
     liquid: slag
     lifetime: 70
@@ -52,7 +52,62 @@ ammoTypes: {
     orbSize: 6
     drag: 0.002
     ammoMultiplier: 4
-    statusDuration: 12
+    statusDuration: 60
     status: melting
     }
+    oil: {
+    damage: 10
+    type: liquidBulletType
+    liquid: oil
+    lifetime: 70
+    speed: 6
+    knockback: 16
+    puddleSize: 16
+    orbSize: 6
+    drag: 0.002
+    ammoMultiplier: 4
+    statusDuration: 60
+    status: tarred
+    }
+    water: {
+    damage: 5
+    type: liquidBulletType
+    liquid: water
+    lifetime: 70
+    speed: 6
+    knockback: 32
+    puddleSize: 16
+    orbSize: 6
+    drag: 0.002
+    ammoMultiplier: 4
+    statusDuration: 60
+    status: wet
+    }
+    cryofluid: {
+    damage: 25
+    type: liquidBulletType
+    liquid: cryofluid
+    lifetime: 70
+    speed: 6
+    knockback: 1
+    puddleSize: 16
+    orbSize: 6
+    drag: 0.002
+    ammoMultiplier: 4
+    statusDuration: 60
+    status: freezing
+    }
+    neoplasm: {
+    damage: 40
+    type: liquidBulletType
+    liquid: neoplasm
+    lifetime: 70
+    speed: 6
+    knockback: 4
+    puddleSize: 16
+    orbSize: 6
+    drag: 0.002
+    ammoMultiplier: 4
+    statusDuration: 12
+    status: infected
     }
