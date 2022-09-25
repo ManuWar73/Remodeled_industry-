@@ -6,6 +6,7 @@ targetAir: true
 targetGround: true
 size: 4
 range: 414
+shootCone: 180
 reload: 1
 drawer: {
   type: drawTurret
