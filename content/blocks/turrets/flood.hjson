@@ -108,7 +108,27 @@ ammoTypes: {
     orbSize: 6
     drag: 0.002
     ammoMultiplier: 4
-    statusDuration: 12
-    status: infected
+    statusDuration: 60
+    status: neoplasminfected
+    }
+     arkycite: {
+    damage: 25
+    type: liquidBulletType
+    liquid: arkycite
+    lifetime: 70
+    speed: 6
+    knockback: 2
+    puddleSize: 16
+    orbSize: 6
+    drag: 0.002
+    ammoMultiplier: 4
+    statusDuration: 60
+    status: arkyciteinfected
     }
     }
+    requirements: [
+  graphite/50
+  silicon/75
+
+]
+category: turret

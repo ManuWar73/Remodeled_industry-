@@ -1,0 +1,16 @@
+name: "Infected by neoplasm"
+speedMultiplier: 0.90
+damage: 1
+effectChance: 0.5
+effect: {
+type: WaveEffect
+sizeFrom: 6
+sizeTo: 10
+lifetime: 10
+cone: 0
+strokeFrom: 2
+strokeTo: 2
+colorFrom: b80f0f
+colorTo: b80f0f
+}
+color: b80f0f
