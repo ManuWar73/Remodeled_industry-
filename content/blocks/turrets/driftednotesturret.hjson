@@ -34,4 +34,4 @@ requirements: [
 
 ]
 category: turret
-buildVisibility: sandbox
+buildVisibility: sandboxOnly
