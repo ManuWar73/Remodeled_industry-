@@ -21,6 +21,7 @@ drawer: {
          moveX: 3
          moveY: -2
          rotation: 20
+         moveRot: -20
               }
                {
         type: RegionPart
@@ -34,6 +35,7 @@ drawer: {
          moveX: 3
          moveY: -2
          rotation: 20
+         moveRot: -20
               }
      ]
      }
