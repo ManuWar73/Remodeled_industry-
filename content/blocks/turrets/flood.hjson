@@ -8,6 +8,7 @@ size: 4
 range: 414
 shootCone: 180
 reload: 1
+inaccuracy: 2
 drawer: {
   type: drawTurret
   parts: [
@@ -127,8 +128,8 @@ ammoTypes: {
     }
     }
     requirements: [
-  graphite/50
-  silicon/75
+  graphite/200
+  silicon/150
 
 ]
 category: turret
