@@ -19,7 +19,7 @@ drawer: {
  {
         type: RegionPart
          mirror: true
-         x: 0
+         x: -4
          y: 0
         suffix: -wing
         drawRegion: true
@@ -27,12 +27,12 @@ drawer: {
          moveX: 4
          moveY: 8
          rotation: 0
-         moveRot: -45
+         moveRot: 0
               }
                {
         type: RegionPart
          mirror: true
-         x: 0
+         x: -4
          y: 0
         suffix: -wing-glow
         drawRegion: true
@@ -41,12 +41,12 @@ drawer: {
          moveX: 4
          moveY: 8
          rotation: 0
-         moveRot: -45
+         moveRot: 0
               }
               {
         type: RegionPart
          mirror: true
-         x: 3
+         x: 0
          y: 4
         suffix: -wing
         drawRegion: true
@@ -54,12 +54,12 @@ drawer: {
          moveX: 4
          moveY: 8
          rotation: 0
-         moveRot: -45
+         moveRot: 0
               }
                {
         type: RegionPart
          mirror: true
-         x: 3
+         x: 0
          y: 4
         suffix: -wing-glow
         drawRegion: true
@@ -68,7 +68,7 @@ drawer: {
          moveX: 4
          moveY: 8
          rotation: 0
-         moveRot: -45
+         moveRot: 0
               }
      ]
      }
