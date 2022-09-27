@@ -13,6 +13,65 @@ cooldownTime: 130
 reload: 0.5
 warmupMantain: 120
 accurateDelay: true
+drawer: {
+  type: drawTurret
+  parts: [
+ {
+        type: RegionPart
+         mirror: true
+         x: 0
+         y: 0
+        suffix: -wing
+        drawRegion: true
+         progress: warmup
+         moveX: 3
+         moveY: 0
+         rotation: 0
+         moveRot: 45
+              }
+               {
+        type: RegionPart
+         mirror: true
+         x: 0
+         y: 0
+        suffix: -wing-glow
+        drawRegion: true
+         progress: warmup
+         blending: additive
+         moveX: 3
+         moveY: 0
+         rotation: 0
+         moveRot: 45
+              }
+              {
+        type: RegionPart
+         mirror: true
+         x: 0
+         y: 0
+        suffix: -wing
+        drawRegion: true
+         progress: warmup
+         moveX: 3
+         moveY: 0
+         rotation: 0
+         moveRot: 45
+              }
+               {
+        type: RegionPart
+         mirror: true
+         x: 0
+         y: 0
+        suffix: -wing-glow
+        drawRegion: true
+         progress: warmup
+         blending: additive
+         moveX: 6
+         moveY: 3
+         rotation: 0
+         moveRot: 45
+              }
+     ]
+     }
 consumes: {
     power: 200
     }
