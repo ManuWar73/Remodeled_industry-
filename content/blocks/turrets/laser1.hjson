@@ -33,13 +33,13 @@ drawer: {
         type: RegionPart
          mirror: true
          x: 0
-         y: 0
+         y: 20
         suffix: -wing-glow
         drawRegion: true
          progress: warmup
          blending: additive
          moveX: 3
-         moveY: 0
+         moveY: 20
          rotation: 0
          moveRot: -45
               }
@@ -52,7 +52,7 @@ drawer: {
         drawRegion: true
          progress: warmup
          moveX: 6
-         moveY: 3
+         moveY: 23
          rotation: 0
          moveRot: -45
               }
@@ -66,7 +66,7 @@ drawer: {
          progress: warmup
          blending: additive
          moveX: 6
-         moveY: 3
+         moveY: 23
          rotation: 0
          moveRot: -45
               }
