@@ -19,7 +19,7 @@ drawer: {
  {
         type: RegionPart
          mirror: true
-         x: -4
+         x: 0
          y: 0
         suffix: -wing
         drawRegion: true
@@ -32,7 +32,7 @@ drawer: {
                {
         type: RegionPart
          mirror: true
-         x: -4
+         x: 0
          y: 0
         suffix: -wing-glow
         drawRegion: true
@@ -46,7 +46,7 @@ drawer: {
               {
         type: RegionPart
          mirror: true
-         x: -4
+         x: 0
          y: 0
         suffix: -wing
         drawRegion: true
@@ -59,7 +59,7 @@ drawer: {
                {
         type: RegionPart
          mirror: true
-         x: -4
+         x: 0
          y: 0
         suffix: -wing-glow
         drawRegion: true
