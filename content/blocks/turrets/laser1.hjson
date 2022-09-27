@@ -46,27 +46,27 @@ drawer: {
               {
         type: RegionPart
          mirror: true
-         x: 0
-         y: 4
+         x: -4
+         y: 0
         suffix: -wing
         drawRegion: true
          progress: warmup
-         moveX: 4
-         moveY: 8
+         moveX: 8
+         moveY: 12
          rotation: 0
          moveRot: 0
               }
                {
         type: RegionPart
          mirror: true
-         x: 0
-         y: 4
+         x: -4
+         y: 0
         suffix: -wing-glow
         drawRegion: true
          progress: warmup
          blending: additive
-         moveX: 4
-         moveY: 8
+         moveX: 8
+         moveY: 12
          rotation: 0
          moveRot: 0
               }
