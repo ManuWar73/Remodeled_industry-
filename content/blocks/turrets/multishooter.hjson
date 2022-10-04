@@ -1,0 +1,64 @@
+name: puncher
+type: itemTurret
+size: 3
+health: 1000
+shootCone: 5
+baseExplosiveness: 0
+maxAmmo: 200
+range: 80
+reload: 20
+rotateSpeed: 30
+canOverdrive: true
+recoil: 2
+shootShake: 7
+shootSound: none
+ammoPerShot: 0.1
+shootWarmupSpeed: 600
+warmupMantainTime: 300
+"shoot": {
+        "type": "ShootBarrels",
+        "barrels": 8[0, 4, 0], [2, 2, 45], [4, 0, 90], [2, -2, 135], [0, -4, 180], [-2, -2, 225], [-4, 0, 270], [-2, 2, 315]
+        "spread": 10
+    },
+ammoTypes: {
+surge-alloy: {
+type: "BasicBulletType"
+damage: 100
+width: 8
+length: 8
+lifetime: 20
+speed: 4
+shootEffect: none
+smokeEffect: none
+hitEffect: {
+        type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 40
+            lifetime: 60
+            colorFrom: ffffff
+            colorTo: 000000
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          ]
+           }
+}
+}
+requirements: [
+  titanium/300
+  copper/1200
+  graphite/200
+  thorium/500
+  plastanium/105
+  surge-alloy/150
+  lead/400
+  pyratite/100
+  phase-fabric/950
+
+]
+category: turret
+buildVisibility: sandboxOnly
