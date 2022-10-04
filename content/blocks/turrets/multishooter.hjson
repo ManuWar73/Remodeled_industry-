@@ -16,7 +16,7 @@ ammoPerShot: 0.1
 shootWarmupSpeed: 600
 warmupMantainTime: 300
 "shoot": {
-        "type": "ShootBarrels",
+        "type": "ShootBarrel",
         "barrels": 8{
             [0, 4, 0]
              [2, 2, 45]
