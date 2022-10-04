@@ -18,7 +18,7 @@ warmupMantainTime: 300
 "shoot": {
         "type": "ShootBarrels",
         "barrels": 8[0, 4, 0], [2, 2, 45], [4, 0, 90], [2, -2, 135], [0, -4, 180], [-2, -2, 225], [-4, 0, 270], [-2, 2, 315]
-        "spread": 10
+        shots: 10
     },
 ammoTypes: {
 surge-alloy: {
