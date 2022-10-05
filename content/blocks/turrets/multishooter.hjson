@@ -17,7 +17,7 @@ shootWarmupSpeed: 600
 warmupMantainTime: 300
 "shoot": {
         "type": "ShootBarrel",
-        "barrels": [
+        "barrels": 3[
           {
             x: 0 
           y: 4 
