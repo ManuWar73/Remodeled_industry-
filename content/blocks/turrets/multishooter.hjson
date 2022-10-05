@@ -22,12 +22,16 @@ warmupMantainTime: 300
           0 
           4 
           0
+          }
           2
           2
           45
+          }
+          {
          -2
           2
           315
+          }
         ]
             
         shots: 3
