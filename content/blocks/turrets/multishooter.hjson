@@ -17,17 +17,25 @@ shootWarmupSpeed: 600
 warmupMantainTime: 300
 "shoot": {
         "type": "ShootBarrel",
-        "barrels": 8{
-            [0, 4, 0]
-             [2, 2, 45]
-             [4, 0, 90]
-             [2, -2, 135]
-             [0, -4, 180]
-             [-2, -2, 225]
-             [-4, 0, 270]
-             [-2, 2, 315]
-            }
-        shots: 10
+        "barrels": [
+          {
+            x: 0 
+          y: 4 
+          rotation: 0
+          }
+          {
+            x: 2
+          y: 2
+          rotation: 45
+          }
+          {
+            x: -2
+          y: 2
+          rotation: 315
+          }
+        ]
+            
+        shots: 3
     },
 ammoTypes: {
 surge-alloy: {
