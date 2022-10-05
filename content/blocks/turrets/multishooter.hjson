@@ -19,19 +19,19 @@ warmupMantainTime: 300
         "type": "ShootBarrel",
         "barrels":[
           {
-            x: 0 
-          y: 4 
-          rotation: 0
+          0 
+          4 
+          0
           }
           {
-            x: 2
-          y: 2
-          rotation: 45
+          2
+          2
+          45
           }
           {
-            x: -2
-          y: 2
-          rotation: 315
+         -2
+          2
+          315
           }
         ]
             
