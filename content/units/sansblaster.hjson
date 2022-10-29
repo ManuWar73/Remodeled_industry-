@@ -24,13 +24,13 @@ weapons: [
     rotate: true
     shootSound: laser
     shake: 1
-    shots: 480
-    shotDelay: 0.25
+    shots: 960
+    shotDelay: 0.125
     bullet: {
         type: "BasicBulletType"
            splashDamage: 0
            pierceArmor: true
-           damage: 20
+           damage: 35
            width: 40
            height: 40
            speed: 4
