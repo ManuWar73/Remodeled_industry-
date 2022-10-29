@@ -7,6 +7,7 @@ speed: 3.75
 rotateSpeed: 1
 accel: 0.1
 drag: 0.1
+speed: 0
 circleTarget: false
 
 weapons: [
@@ -20,20 +21,21 @@ weapons: [
     recoil: 1
     reload: 2
     shootX: 0
+    rotate: true
     shootSound: laser
     shake: 1
-    shots: 120
-    shotDelay: 1
+    shots: 480
+    shotDelay: 0.25
     bullet: {
         type: "BasicBulletType"
            splashDamage: 0
            pierceArmor: true
-           damage: 1
-           width: 8
-           height: 8
+           damage: 20
+           width: 40
+           height: 40
            speed: 4
            killShooter: true
-           lifetime: 60
+           lifetime: 120
            hitSize: 4
            layer: 10
            }
