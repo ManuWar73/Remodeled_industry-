@@ -1,28 +1,28 @@
 name: multishooter
 type: itemTurret
-size: 3
+size: 1
 health: 1000
-shootCone: 5
+shootCone: 360
 baseExplosiveness: 0
 maxAmmo: 200
 range: 80
-reload: 20
-rotateSpeed: 30
+reload: 60
+rotateSpeed: 0.5
 canOverdrive: true
 recoil: 2
 shootShake: 7
 shootSound: none
-ammoPerShot: 0.1
+ammoPerShot: 1
 shootWarmupSpeed: 600
 warmupMantainTime: 300
 "shoot": {
         "type": "ShootBarrel",
         "barrels":[0, 0, 0, 0, 0, 45, 0, 0, 90, 0, 0, 135, 0, 0, 180, 0, 0, 225, 0, 0, 270, 0, 0, 315, 0, 0, 360]
             
-        shots: 8
+        shots: 9
     },
 ammoTypes: {
-surge-alloy: {
+lead: {
 type: "BasicBulletType"
 damage: 100
 width: 8

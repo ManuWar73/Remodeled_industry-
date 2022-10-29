@@ -1,0 +1,41 @@
+type: flying
+health: 100000
+armor: 3
+flying: true
+hitSize: 32
+speed: 3.75
+rotateSpeed: 1
+accel: 0.1
+drag: 0.1
+circleTarget: false
+
+weapons: [
+  {
+    name: blast
+    top: false
+    mirror: false
+    x: 0
+    heatColor: 85f0fe
+    y: 0
+    recoil: 1
+    reload: 2
+    shootX: 0
+    shootSound: laser
+    shake: 1
+    shots: 120
+    shotDelay: 1
+    bullet: {
+        type: "BasicBulletType"
+           splashDamage: 0
+           pierceArmor: true
+           damage: 1
+           width: 8
+           height: 8
+           speed: 4
+           killShooter: true
+           lifetime: 60
+           hitSize: 4
+           layer: 10
+           }
+           }
+           ]
