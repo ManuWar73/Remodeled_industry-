@@ -61,4 +61,3 @@ requirements: [
 
 ]
 category: turret
-buildVisibility: sandboxOnly
