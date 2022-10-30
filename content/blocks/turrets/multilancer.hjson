@@ -1,5 +1,5 @@
-ame: "multi lancer"
-typen: PowerTurret
+name: "multi lancer"
+type: PowerTurret
 size: 3
 health: 1500
 shootCone: 180
