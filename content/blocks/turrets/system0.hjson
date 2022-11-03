@@ -20,7 +20,7 @@ shootSound: none
 ammoPerShot: 5
 "drawer": {
     "type": "drawTurret",
- {
+ parts: {
         "type": "HaloPart",
         "y": 0
         "x": 0
