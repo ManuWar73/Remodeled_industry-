@@ -7,8 +7,8 @@ targetGround: true
 size: 4
 range: 414
 shootCone: 180
-reload: 1
-inaccuracy: 45
+reload: 0.5
+inaccuracy: 22.5
 drawer: {
   type: drawTurret
   parts: [

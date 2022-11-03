@@ -18,6 +18,30 @@ recoil: 10
 recoilTime: 80
 shootSound: none
 ammoPerShot: 5
+"drawer": {
+    "type": "drawTurret",
+ {
+        "type": "HaloPart",
+        "y": 0
+        "x": 0
+        "radius": 3.5,
+        "mirror": false,
+        "tri": true,
+        "layer": 110,
+        "progress": {
+           "type": "reload",
+          "op": "delay",
+          "amount": 0.85
+          },
+        "color": "66B1FFff",
+        "haloRadius": 1,
+        "haloRadiusTo": 1,
+        "haloRotation": 45,
+        "stroke": 0,
+        "strokeTo": 2,
+         "shapes": 4,
+        "triLengthTo": 10
+         },
 ammoTypes: {
 surge-alloy: {
 type: MissileBulletType
