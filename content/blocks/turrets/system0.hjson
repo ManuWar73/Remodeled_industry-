@@ -18,6 +18,8 @@ recoil: 10
 recoilTime: 80
 shootSound: none
 ammoPerShot: 5
+shootWarmupSpeed: 0.01
+warmupMantainTime: 300
 "drawer": {
     "type": "drawTurret",
  parts: {
@@ -29,7 +31,7 @@ ammoPerShot: 5
         "tri": true,
         "layer": 110,
         "progress": {
-           "type": "reload",
+           "type": "warmup",
           "op": "delay",
           "amount": 0.85
           },
