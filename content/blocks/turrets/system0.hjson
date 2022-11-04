@@ -18,7 +18,7 @@ recoil: 10
 recoilTime: 80
 shootSound: none
 ammoPerShot: 5
-shootWarmupSpeed: 0.01
+shootWarmupSpeed: 1
 warmupMantainTime: 300
 "drawer": {
     "type": "drawTurret",
