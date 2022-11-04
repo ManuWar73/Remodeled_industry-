@@ -22,7 +22,7 @@ shootWarmupSpeed: 1
 warmupMantainTime: 300
 "drawer": {
     "type": "drawTurret",
- parts: {
+ parts: [
   {
 type: HaloPart
 color: 0adaff
@@ -33,6 +33,7 @@ y:0
 mirror: false
 radius: 8
  }
+ ]
  }
 ammoTypes: {
 surge-alloy: {
