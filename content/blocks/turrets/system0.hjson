@@ -26,10 +26,15 @@ warmupMantainTime: 300
   {
 type: HaloPart
 color: 0adaff
-progress: charge
-tri: true
+progress: warmup
+tri: false
 x: 0
 y:0
+rotateSpeed: 0
+shapes: 5
+shapeMoveRot: 3
+stroke: 0
+strokeTo: 1
 mirror: false
 radius: 8
  }
