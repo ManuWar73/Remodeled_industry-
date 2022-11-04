@@ -23,7 +23,7 @@ warmupMantainTime: 300
 "drawer": {
     "type": "drawTurret",
  parts: {
-  {
+{
         "type": "HaloPart",
         "y": 36.5,
         "x": -24,
