@@ -32,8 +32,6 @@ warmupMantainTime: 300
         "layer": 110,
         "progress": {
            "type": "warmup",
-          "op": "delay",
-          "amount": 0.85
           },
         "color": "66B1FFff",
         "haloRadius": 1,
