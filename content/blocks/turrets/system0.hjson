@@ -22,7 +22,7 @@ shootWarmupSpeed: 1
 warmupMantainTime: 300
 "drawer": {
     "type": "drawTurret",
- parts: {
+ parts: [
 {
         "type": "HaloPart",
         "y": 36.5,
@@ -197,7 +197,7 @@ warmupMantainTime: 300
          "shapes": 1,
         "triLengthTo": 5
         },
-         }
+         ]
 ammoTypes: {
 surge-alloy: {
 type: MissileBulletType
