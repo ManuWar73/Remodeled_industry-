@@ -97,7 +97,7 @@ damage": 300,
 fragOnHit: false
 pierce: true
 pierceCap: 5
-                                                    
+                                                    }
              }
              }
              }
