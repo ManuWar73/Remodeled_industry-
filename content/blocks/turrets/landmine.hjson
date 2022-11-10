@@ -1,0 +1,112 @@
+drawer: {
+  type: drawTurret
+  parts: [
+ {
+        type: RegionPart
+         mirror: true
+         x: 0
+         y: 0
+        suffix: -w
+        drawRegion: true
+         progress: warmup
+         moveX: 3
+         moveY: -2
+         rotation: 20
+         moveRot: -20
+              }
+               {
+        type: RegionPart
+         mirror: true
+         x: 0
+         y: 0
+        suffix: -w-g
+        drawRegion: true
+         progress: warmup
+         blending: additive
+         moveX: 3
+         moveY: -2
+         rotation: 20
+         moveRot: -20
+              }
+     ]
+     }
+     name: "landminer"
+type: itemTurret
+size: 4
+health: 1500
+shootCone: 5
+baseExplosiveness: 0
+maxAmmo: 200
+range: 600
+reload: 60
+rotateSpeed: 3
+canOverdrive: true
+recoil: 10
+recoilTime: 80
+shootSound: none
+ammoPerShot: 1
+ammoTypes: {
+surged-copper: {
+                 "type": "ArtilleryBulletType",
+                 "lifetime": 60,
+                 "speed": 5,
+                 "damage": 100
+                 length: 80
+                 fragSpread: 36
+width: 80
+                 "frontColor": "ffff00",
+                 "backColor": "00ffff",
+                 "homingPower": 1000,
+                 "homingRange": 20,
+                 fragVelocityMax: 2
+                 fragVelocityMin: 0.25
+                     "fragBullets": 10,
+                     "fragBullet": {
+                         "type": "BasicBulletType",
+                         "lifetime": 60,
+                         "speed": 5,
+                         drag: 0.02
+                         "damage": 10,
+                         splashDamage: 300
+                         splashDamageRadius: 40
+                         hitEffect:  {
+                         type: MultiEffect
+        lifetime: 60
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 40
+            lifetime: 20
+            colorFrom: ffffff
+            colorTo: 000000
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          ]
+           }
+                         knockback: 16
+                          "fragBullets": 20,
+pierce: true
+pierceCap: 5
+"fragBullet": {
+"type": "BasicBulletType",
+"lifetime": 60,
+"speed": 5,
+damage": 300,
+fragOnHit: false
+pierce: true
+pierceCap: 5
+                                                    
+             }
+             }
+             }
+             requirements: [
+               titanium/10000
+               pyratite/10000
+               phase-fabric/10000
+               copper/10000
+               lead/10000
+               surge-alloy/12000
+             ]
+             category: turret

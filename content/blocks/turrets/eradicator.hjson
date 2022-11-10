@@ -38,6 +38,9 @@ surged-copper: {
                  "speed": 5,
                  "damage": 100
                  length: 80
+                 fragRandomSpread: 0
+                                                                             fragVelocityMax: 1
+                                                                             fragVelocityMin: 1
                  fragSpread: 36
 width: 80
                  "frontColor": "ffff00",
@@ -52,6 +55,9 @@ width: 80
                          "damage": 300,
                           "fragBullets": 10,
                           fragSpread: 36
+                          fragRandomSpread: 0
+                                                                             fragVelocityMax: 1
+                                                                             fragVelocityMin: 1
                           fragOnHit: false
 pierce: true
 pierceCap: 5
@@ -72,6 +78,9 @@ pierce: true
 pierceCap: 10
                                                                              "damage": 100,
                                                                              fragSpread: 36
+                                                                             fragRandomSpread: 0
+                                                                             fragVelocityMax: 1
+                                                                             fragVelocityMin: 1
                                                                              "homingDelay": 10,
                                                                              "homingPower": 20,
                                                                              "homingRange": 400,
