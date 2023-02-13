@@ -63,9 +63,9 @@ width: 80
                      "fragBullets": 10,
                      "fragBullet": {
                          "type": "BasicBulletType",
-                         "lifetime": 60,
-                         "speed": 5,
-                         drag: 0.02
+                         "lifetime": 6000,
+                         "speed": 3,
+                         drag: 0.04
                          "damage": 10,
                          splashDamage: 300
                          splashDamageRadius: 40
