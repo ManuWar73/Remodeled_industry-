@@ -19,7 +19,7 @@ displayAmmoMultiplier: true
 ammoMultiplier: 1
 shake: 20
 ammoTypes: {
-nobelium: {
+project-viscott-nobelium: {
 type: "ArtilleryBulletType"
            splashDamage: 5000
            pierceCap: 1000

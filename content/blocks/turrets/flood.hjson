@@ -128,7 +128,7 @@ ammoTypes: {
     }
     }
     requirements: [
-  viscott-platinum/50
+  project-viscott-platinum/50
   silicon/50
 
 ]
