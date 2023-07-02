@@ -7,7 +7,7 @@ rotateSpeed: 10
 canOverdrive: "true"
 recoil: 4
 recoilTime: 30
-reload: 6000
+reload: 600
 shootSound: "laser"
 shootShake: 10000
 chargeTime: 0
