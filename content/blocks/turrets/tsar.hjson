@@ -14,7 +14,7 @@ recoilTime: 1600
 heatColor: ffa861
 cooldownTime: 2200
 shootSound: none
-ammoPerShot: 400
+ammoPerShot: 10
 displayAmmoMultiplier: true
 ammoMultiplier: 1
 shake: 20

@@ -2,14 +2,14 @@ type: "PowerTurret"
 size: 1
 health: 500
 shootCone: 180
-range: 640
+range: 1200
 rotateSpeed: 10
 canOverdrive: "true"
 recoil: 4
 recoilTime: 30
-reload: 40
+reload: 1000000000
 shootSound: "laser"
-shootShake: 20
+shootShake: 10000
 chargeTime: 0
 outline: false
 consumes: {
@@ -17,15 +17,17 @@ consumes: {
     }
 shootType: {
            type: "PointBulletType"
-           splashDamage: 1000
-           splashDamageRadius: 8
-           speed: 16
+           splashDamage: 100000000
+           splashDamageRadius: 4
+           speed: 500
            lifetime: 40
            trailEffect: "railTrail"
-		       trailInterval: 12
+		       trailInterval: 14
            pierceCap: 100
            pierce: true
+           trailWidth = 16
            hitSize: 8
+           unitSort = "strongest"
 	   }
 requirements: [
   project-viscott-lithium/25
