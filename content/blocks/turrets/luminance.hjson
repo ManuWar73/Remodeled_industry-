@@ -30,6 +30,6 @@ shootType: {
 	   splashDamageRadius: 40
 	   }
 requirements: [
-  project-project-viscott-lithium/25
+  project-viscott-lithium/25
 ]
 category: turret
