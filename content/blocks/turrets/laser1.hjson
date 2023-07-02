@@ -113,7 +113,7 @@ shootType: {
 shootShake: 50
            }
 requirements: [
-  titanium/2000
+  silicon/50
 
 ]
 category: turret

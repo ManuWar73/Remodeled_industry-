@@ -102,11 +102,6 @@ pierceCap: 5
              }
              }
              requirements: [
-               titanium/10000
-               pyratite/10000
-               phase-fabric/10000
-               copper/10000
-               lead/10000
-               surge-alloy/12000
+               silicon/50
              ]
              category: turret

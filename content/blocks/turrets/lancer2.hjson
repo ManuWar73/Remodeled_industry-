@@ -47,7 +47,7 @@ shootType: {
            colors: [7eed5a, 5aede3, ffffff]
            }
 requirements: [
-  titanium/2000
+ silicon/50
 
 ]
 category: turret

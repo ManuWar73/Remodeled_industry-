@@ -7,7 +7,7 @@ rotateSpeed: 10
 canOverdrive: "true"
 recoil: 4
 recoilTime: 30
-reload: 60
+reload: 40
 shootSound: "laser"
 shootShake: 20
 chargeTime: 0
@@ -17,7 +17,8 @@ consumes: {
     }
 shootType: {
            type: "PointBulletType"
-           damage: 100
+           splashDamage: 1000
+           splashDamageRadius: 8
            speed: 16
            lifetime: 40
            trailEffect: "railTrail"
@@ -29,9 +30,6 @@ shootType: {
 	   splashDamageRadius: 40
 	   }
 requirements: [
-  beryllium/200
-  tungsten/100
-  thorium/100
-  surge-alloy/25
+  viscott-lithium/25
 ]
 category: turret

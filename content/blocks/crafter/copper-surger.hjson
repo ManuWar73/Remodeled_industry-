@@ -52,10 +52,7 @@ consumes: {
   }
 }
 requirements: [
-  titanium/120
-  thorium/150
-  surge-alloy/50
-  phase-fabric/25
+ silicon/50
 ]
 category: crafting
 research: alloy-smelter

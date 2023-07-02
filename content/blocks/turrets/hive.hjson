@@ -14,7 +14,7 @@ recoil: 1
 shootSound: none
 ammoPerShot: 3
 ammoTypes: {
-titanium: {
+silicon: {
 type: MissileBulletType
 damage: 70
 "frontColor": "f5e000",
@@ -57,7 +57,7 @@ length: 30
 }
 }
 requirements: [
-  titanium/2000
+  silicon/50
 
 ]
 category: turret

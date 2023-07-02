@@ -19,7 +19,7 @@ displayAmmoMultiplier: true
 ammoMultiplier: 1
 shake: 20
 ammoTypes: {
-blast-compound: {
+nobelium: {
 type: "ArtilleryBulletType"
            splashDamage: 5000
            pierceCap: 1000
@@ -92,9 +92,7 @@ type: "ArtilleryBulletType"
            }
            category: turret
            requirements: [
-  surged-copper/1000
-  thorium/3000
-  titanium/5000
+  silicon/100
 
 ]       
     

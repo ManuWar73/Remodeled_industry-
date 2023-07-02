@@ -218,7 +218,7 @@ pierce: true
 pierceCap: 1000
 }
 }
-titanium: {
+silicon: {
 type: "BasicBulletType"
 damage: 100000
 lifetime: 600
@@ -320,7 +320,7 @@ pierceCap: 1000
 }
 }
 requirements: [
-  titanium/5000
+  silicon/100
 
 ]
 category: turret

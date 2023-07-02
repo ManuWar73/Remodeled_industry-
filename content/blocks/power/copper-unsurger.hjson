@@ -11,10 +11,8 @@ consumes: {
   }
 }
 requirements: [
-  copper/13000
-  lead/14000
-  silicon/13550
-  surged-copper/300
+  silicon/50
+  
 ]
 category: power
 research: rtg-generator

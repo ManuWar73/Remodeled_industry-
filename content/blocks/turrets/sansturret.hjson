@@ -1,4 +1,4 @@
-name: puncher
+name: launcher
 type: itemTurret
 size: 6
 health: 10000
@@ -6,7 +6,7 @@ shootCone: 5
 baseExplosiveness: 0
 maxAmmo: 200
 range: 600
-reload: 45
+reload: 30
 rotateSpeed: 30
 canOverdrive: true
 recoil: 2
@@ -16,7 +16,7 @@ ammoPerShot: 3
 shootWarmupSpeed: 600
 warmupMantainTime: 300
 ammoTypes: {
-surge-alloy: {
+silicon: {
 type: "ArtilleryBulletType"
 damage: 40
 width: 8
@@ -46,15 +46,7 @@ despawnEffect: {
 }
 }
 requirements: [
-  titanium/300
-  copper/1200
-  graphite/200
-  thorium/500
-  plastanium/105
-  surge-alloy/150
-  lead/400
-  pyratite/100
-  phase-fabric/950
+silicon/50
 
 ]
 category: turret

@@ -1,4 +1,4 @@
-name: Drifted notes
+name: Deth
 type: itemTurret
 size: 3
 health: 1000
@@ -17,7 +17,7 @@ shoot: {
 shots: 2
 }
 ammoTypes: {
-drifted-note: {
+silicon: {
 type: ContinuousLaserBulletType
 damage: 5000
 shootLength: 30
@@ -30,8 +30,7 @@ lightRadius: 0
 }
 }
 requirements: [
-  drifted-note/1000
+  silicon/100
 
 ]
 category: turret
-buildVisibility: sandboxOnly
