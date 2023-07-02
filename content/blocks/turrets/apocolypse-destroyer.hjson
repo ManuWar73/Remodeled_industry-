@@ -27,7 +27,7 @@ shootType: {
            pierce: true
            trailWidth = 16
            hitSize: 8
-           unitSort = "strongest"
+           unitSort: "strongest"
 	   }
 requirements: [
   project-viscott-lithium/25
