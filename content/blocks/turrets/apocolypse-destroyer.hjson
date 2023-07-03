@@ -17,6 +17,7 @@ shootType: {
            splashDamage: 100000000
            splashDamageRadius: 4
            speed: 500
+           killShooter: "true"
            despawnShake: 1000
            lifetime: 40
            trailEffect: "railTrail"
@@ -28,6 +29,7 @@ shootType: {
            unitSort: "strongest"
 	   }
 requirements: [
-  project-viscott-lithium/1
+  project-viscott-lithium/600
+  silicon/400
 ]
 category: turret
