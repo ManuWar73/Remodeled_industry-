@@ -1,24 +1,22 @@
 type: "PowerTurret"
-size: 10
-health: 100500
-shootCone: 180
-range: 8000
+size: 2
+health: 5000
+shootCone: 360
+range: 400
 rotateSpeed: 10
 canOverdrive: "true"
 recoil: 4
 recoilTime: 30
-reload: 600
+reload: 30
 shootSound: "laser"
-shootShake: 100000
 chargeTime: 0
 outline: false
 shootType: {
            type: "PointBulletType"
-           splashDamage: 100000000
-           splashDamageRadius: 4
+           splashDamage: 1000
+           splashDamageRadius: 8
            speed: 500
            killShooter: "true"
-           despawnShake: 1000
            lifetime: 40
            trailEffect: "railTrail"
 		       trailInterval: 14
@@ -26,10 +24,10 @@ shootType: {
            pierce: true
            trailWidth: 16
            hitSize: 8
-           unitSort: "strongest"
+           unitSort: "closest"
 	   }
 requirements: [
-  project-viscott-lithium/600
-  silicon/400
+  project-viscott-lithium/40
+  silicon/40
 ]
 category: turret
