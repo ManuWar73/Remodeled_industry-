@@ -70,10 +70,10 @@ ammoTypes: {
     statusDuration: 5
     status: project-viscott-data-leak
     }
-     project-viscott-liquid-xenon: {
-    damage: 20
+     project-viscott-liquid-nitrogen: {
+    damage: 100
     type: liquidBulletType
-    liquid: project-viscott-liquid-xenon
+    liquid: project-viscott-liquid-nitrogen
     lifetime: 70
     speed: 6
     knockback: 1
@@ -83,6 +83,20 @@ ammoTypes: {
     ammoMultiplier: 4
     statusDuration: 30
     status: betamindy-drift
+    }
+    nitrogen: {
+    damage: 20
+    type: liquidBulletType
+    liquid: nitrogen
+    lifetime: 70
+    speed: 6
+    knockback: 1
+    puddleSize: 16
+    orbSize: 6
+    drag: 0.002
+    ammoMultiplier: 4
+    statusDuration: 30
+    status: betamindy-boost
     }
     oil: {
     damage: 10
