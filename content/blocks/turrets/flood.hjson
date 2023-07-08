@@ -56,10 +56,10 @@ ammoTypes: {
     statusDuration: 60
     status: melting
     }
-     project-viscott-kerosene: {
+     project-viscott-liquid-kerosene: {
     damage: 30
     type: liquidBulletType
-    liquid: project-viscott-kerosene
+    liquid: project-viscott-liquid-kerosene
     lifetime: 70
     speed: 6
     knockback: 1
