@@ -6,13 +6,13 @@ shootCone: 5
 baseExplosiveness: 0
 maxAmmo: 200
 range: 600
-reload: 2
+reload: 1
 rotateSpeed: 30
 canOverdrive: true
 recoil: 2
 shootShake: 7
 shootSound: none
-ammoPerShot: 0.1
+ammoPerShot: 0.05
 shootWarmupSpeed: 600
 warmupMantainTime: 300
 "shoot": {
@@ -23,12 +23,13 @@ warmupMantainTime: 300
 ammoTypes: {
 surge-alloy: {
 type: "BasicBulletType"
-damage: 40
+damage: 10
+trailLenght: 4
 width: 8
 length: 8
-lifetime: 90
-speed: 7.5
-shootEffect: none
+lifetime: 45
+speed: 15
+shootSound: shoot
 smokeEffect: none
 hitEffect: {
         type: MultiEffect
@@ -49,15 +50,7 @@ hitEffect: {
 }
 }
 requirements: [
-  titanium/300
-  copper/1200
-  graphite/200
-  thorium/500
-  plastanium/105
-  surge-alloy/150
-  lead/400
-  pyratite/100
-  phase-fabric/950
+  silicon/100
 
 ]
 category: turret

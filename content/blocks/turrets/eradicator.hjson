@@ -5,6 +5,7 @@ health: 1500
 shootCone: 5
 baseExplosiveness: 100
 maxAmmo: 200
+ammoPerShot: 175
 range: 600
 reload: 150
 rotateSpeed: 3

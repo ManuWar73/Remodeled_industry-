@@ -4,7 +4,7 @@ size: 3
 health: 1000
 shootCone: 5
 baseExplosiveness: 500
-maxAmmo: 100
+maxAmmo: 180
 range: 300
 reload: 1
 rotateSpeed: 1
@@ -14,12 +14,12 @@ recoil: 1
 shootSound: none
 ammoPerShot: 1
 shoot: {
-shots: 2
+shots: 1
 }
 ammoTypes: {
 silicon: {
 type: ContinuousLaserBulletType
-damage: 5000
+damage: 2500
 shootLength: 30
 speed: 0
 shootEffect: none

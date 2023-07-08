@@ -7,6 +7,7 @@ baseExplosiveness: 0
 maxAmmo: 200
 range: 600
 reload: 30
+ammoPerShot: 20
 rotateSpeed: 30
 canOverdrive: true
 recoil: 2
@@ -25,7 +26,7 @@ lifetime: 90
 speed: 7.5
 shootEffect: none
 smokeEffect: none
-despawnUnit: sansblaster
+despawnUnit: gunner
 despawnEffect: {
         type: MultiEffect
         lifetime: 60

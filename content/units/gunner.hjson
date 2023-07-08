@@ -1,4 +1,5 @@
 type: flying
+name: "Launched Shooter"
 health: 100000
 armor: 3
 flying: true

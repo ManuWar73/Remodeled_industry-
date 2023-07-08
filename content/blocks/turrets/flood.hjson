@@ -56,6 +56,34 @@ ammoTypes: {
     statusDuration: 60
     status: melting
     }
+     project-viscott-kerosene: {
+    damage: 30
+    type: liquidBulletType
+    liquid: project-viscott-kerosene
+    lifetime: 70
+    speed: 6
+    knockback: 1
+    puddleSize: 16
+    orbSize: 6
+    drag: 0.002
+    ammoMultiplier: 4
+    statusDuration: 60
+    status: project-viscott-doused
+    }
+     project-viscott-xenon: {
+    damage: 20
+    type: liquidBulletType
+    liquid: project-viscott-xenon
+    lifetime: 70
+    speed: 6
+    knockback: 1
+    puddleSize: 16
+    orbSize: 6
+    drag: 0.002
+    ammoMultiplier: 4
+    statusDuration: 30
+    status: betamindy-drift
+    }
     oil: {
     damage: 10
     type: liquidBulletType
