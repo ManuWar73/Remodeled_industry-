@@ -96,7 +96,7 @@ ammoTypes: {
     drag: 0.002
     ammoMultiplier: 4
     statusDuration: 30
-    status: betamindy-boost
+    status: betamindy-booster
     }
     oil: {
     damage: 10
