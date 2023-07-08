@@ -70,10 +70,10 @@ ammoTypes: {
     statusDuration: 5
     status: project-viscott-data-leak
     }
-     project-viscott-xenon: {
+     project-viscott-liquid-xenon: {
     damage: 20
     type: liquidBulletType
-    liquid: project-viscott-xenon
+    liquid: project-viscott-liquid-xenon
     lifetime: 70
     speed: 6
     knockback: 1
